@@ -142,38 +142,88 @@ $pageDescription = 'Professional IT infrastructure, networking, and hardware sol
             <div
                 class="absolute right-0 top-0 w-24 h-full bg-gradient-to-l from-gray-50 dark:from-base to-transparent z-10">
             </div>
-            <div class="flex items-center space-x-14 animate-logo-carousel whitespace-nowrap">
+            <!-- Row 1: General Brands -->
+            <div
+                class="flex items-center space-x-14 w-max animate-logo-carousel hover:[animation-play-state:paused] whitespace-nowrap mb-8 mt-4">
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">CISCO</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">CISCO</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">HPE</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">HPE</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">DELL</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">DELL</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">LENOVO</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">LENOVO</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">FORTINET</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">FORTINET</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">MICROSOFT</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">MICROSOFT</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">UBIQUITI</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">UBIQUITI</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">SYNOLOGY</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">SYNOLOGY</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">HIKVISION</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">HIKVISION</span>
                 <!-- Duplicate for infinite scroll -->
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">CISCO</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">CISCO</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">HPE</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">HPE</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">DELL</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">DELL</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">LENOVO</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">LENOVO</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">FORTINET</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">FORTINET</span>
                 <span
-                    class="text-lg sm:text-xl font-bold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">MICROSOFT</span>
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">MICROSOFT</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">UBIQUITI</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">SYNOLOGY</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">HIKVISION</span>
+            </div>
+
+            <!-- Row 2: Networking Brands (Reverse) -->
+            <div
+                class="flex items-center space-x-14 w-max animate-logo-carousel-reverse hover:[animation-play-state:paused] whitespace-nowrap">
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">JUNIPER</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">ARUBA</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">MIKROTIK</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">TP-LINK</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">D-LINK</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">NETGEAR</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">ZYXEL</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">RUIJIE</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">PANDUIT</span>
+                <!-- Duplicate for infinite scroll -->
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">JUNIPER</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">ARUBA</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">MIKROTIK</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">TP-LINK</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">D-LINK</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">NETGEAR</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">ZYXEL</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">RUIJIE</span>
+                <span
+                    class="text-lg sm:text-xl font-semibold text-slate-400 dark:text-slate-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors cursor-default">PANDUIT</span>
             </div>
         </div>
     </div>
@@ -332,6 +382,20 @@ $pageDescription = 'Professional IT infrastructure, networking, and hardware sol
                             d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                     </svg></a>
             </div>
+        </div>
+
+        <!-- View All Services Link -->
+        <div class="mt-16 text-center animate-fade-in-up">
+            <a href="/services.php"
+                class="inline-flex items-center px-10 py-5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-black text-sm tracking-widest uppercase transition-all duration-300 shadow-xl shadow-blue-600/30 hover:shadow-2xl hover:shadow-blue-600/40 transform hover:-translate-y-1 group">
+                View All Services
+                <svg class="w-5 h-5 ml-2.5 group-hover:translate-x-1.5 transition-transform" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3">
+                    </path>
+                </svg>
+            </a>
         </div>
     </div>
 </section>
@@ -1123,7 +1187,7 @@ $pageDescription = 'Professional IT infrastructure, networking, and hardware sol
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             <!-- Blog Card 1 -->
-            <a href="#"
+            <a href="/insights/cyber-security-threats-2026.php"
                 class="group flex flex-col bg-white dark:bg-surface rounded-[2rem] overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-2xl hover:shadow-blue-500/10 h-full">
                 <div class="relative h-48 sm:h-56 overflow-hidden">
                     <img src="/assets/images/cyber-security.png" alt="Cyber Security Trends 2026"
@@ -1159,7 +1223,7 @@ $pageDescription = 'Professional IT infrastructure, networking, and hardware sol
             </a>
 
             <!-- Blog Card 2 -->
-            <a href="#"
+            <a href="/insights/cloud-migration-hybrid-choice.php"
                 class="group flex flex-col bg-white dark:bg-surface rounded-[2rem] overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-2xl hover:shadow-blue-500/10 h-full">
                 <div class="relative h-48 sm:h-56 overflow-hidden">
                     <img src="/assets/images/structured-cabling-hero.png" alt="Cloud Migration Strategy"
@@ -1195,7 +1259,7 @@ $pageDescription = 'Professional IT infrastructure, networking, and hardware sol
             </a>
 
             <!-- Blog Card 3 -->
-            <a href="#"
+            <a href="/insights/5-signs-it-amc-partner.php"
                 class="group flex flex-col bg-white dark:bg-surface rounded-[2rem] overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-2xl hover:shadow-blue-500/10 h-full">
                 <div class="relative h-48 sm:h-56 overflow-hidden">
                     <img src="/assets/images/networking.png" alt="IT AMC Partner"

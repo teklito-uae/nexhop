@@ -133,6 +133,217 @@
 </footer>
 
 <script src="/assets/js/main.js"></script>
+
+<!-- Toast Notification -->
+<div id="lead-toast"
+    class="fixed top-5 right-5 z-[9999] bg-emerald-500 text-white px-6 py-3 rounded-lg shadow-2xl font-bold text-sm transform transition-all duration-300 translate-x-[150%] opacity-0 flex items-center gap-2">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+    </svg>
+    Request sent successfully!
+</div>
+
+<!-- Floating Lead Form -->
+<div id="floating-lead-form-container"
+    class="fixed bottom-4 left-4 right-4 sm:right-auto z-50 flex flex-col items-center sm:items-start translate-y-[150%] transition-transform duration-700 ease-out pointer-events-none">
+
+    <!-- Collapsed Button -->
+    <button id="floating-lead-btn"
+        class="hidden items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-3.5 rounded-full shadow-2xl font-bold text-sm transition-colors pointer-events-auto"
+        onclick="toggleLeadForm()">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
+            </path>
+        </svg>
+        Need Help?
+    </button>
+
+    <!-- Form Container -->
+    <div id="floating-lead-form"
+        class="bg-white dark:bg-surface border border-gray-200 dark:border-white/10 shadow-2xl rounded-2xl w-full sm:w-[360px] max-h-[85vh] overflow-y-auto flex flex-col relative pointer-events-auto">
+        <!-- Header -->
+        <div
+            class="bg-gradient-to-r from-blue-700 via-blue-600 to-cyan-500 p-4 flex justify-between items-center text-white">
+            <h3 class="font-extrabold text-sm flex items-center gap-2">
+                <svg class="w-4 h-4 text-cyan-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+                Looking for a service?
+            </h3>
+            <button onclick="toggleLeadForm()" class="text-white/80 hover:text-white transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Form Body -->
+        <form id="lead-submit-form" class="p-5 flex flex-col gap-4">
+            <div>
+                <input type="text" id="lead-name" placeholder="Your Name" required
+                    class="w-full bg-gray-50 dark:bg-black/20 border border-gray-200 dark:border-white/10 rounded-xl px-3.5 py-2.5 text-sm text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500/30 transition-all shadow-sm">
+            </div>
+            <div>
+                <input type="email" id="lead-email" placeholder="Your Email" required
+                    class="w-full bg-gray-50 dark:bg-black/20 border border-gray-200 dark:border-white/10 rounded-xl px-3.5 py-2.5 text-sm text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500/30 transition-all shadow-sm">
+            </div>
+            <div class="relative">
+                <select id="lead-service" required
+                    class="w-full bg-gray-50 dark:bg-black/20 border border-gray-200 dark:border-white/10 rounded-xl px-3.5 py-2.5 text-sm text-gray-900 dark:text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500/30 transition-all appearance-none pr-8 shadow-sm">
+                    <option value="" disabled selected class="dark:bg-gray-800">Select a Service...</option>
+                    <option value="IT AMC" class="dark:bg-gray-800">IT AMC</option>
+                    <option value="Cyber Security" class="dark:bg-gray-800">Cyber Security</option>
+                    <option value="Cloud Migration" class="dark:bg-gray-800">Cloud Migration</option>
+                    <option value="Networking" class="dark:bg-gray-800">Networking</option>
+                    <option value="CCTV Systems" class="dark:bg-gray-800">CCTV / Security Systems</option>
+                    <option value="Other" class="dark:bg-gray-800">Other</option>
+                </select>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-400">
+                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+            </div>
+            <div>
+                <textarea id="lead-description" placeholder="Brief description..." rows="2"
+                    class="w-full bg-gray-50 dark:bg-black/20 border border-gray-200 dark:border-white/10 rounded-xl px-3.5 py-2.5 text-sm text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500/30 transition-all resize-none shadow-sm"></textarea>
+            </div>
+            <button type="submit" id="lead-submit-btn"
+                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm py-3 rounded-xl shadow-lg shadow-blue-500/20 transition-all mt-1">
+                Submit Request
+            </button>
+        </form>
+    </div>
+</div>
+
+<script>
+    let floatingFormVisible = false;
+    let hasTriggeredForm = false;
+    const LEAD_FORM_STORAGE_KEY = 'flashfix_lead_form_submitted';
+    const LEAD_FORM_COOLDOWN_DAYS = 7;
+
+    function shouldShowLeadForm() {
+        const lastSubmitDate = localStorage.getItem(LEAD_FORM_STORAGE_KEY);
+        if (!lastSubmitDate) return true;
+
+        const now = new Date();
+        const submitDate = new Date(parseInt(lastSubmitDate, 10));
+        const diffTime = Math.abs(now - submitDate);
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+        return diffDays > LEAD_FORM_COOLDOWN_DAYS;
+    }
+
+    // Synthesize a clean notification chime
+    function playNotificationSound() {
+        try {
+            const ctx = new (window.AudioContext || window.webkitAudioContext)();
+            const osc = ctx.createOscillator();
+            const gainNode = ctx.createGain();
+
+            // Soft pleasant chime
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(880, ctx.currentTime);
+            osc.frequency.exponentialRampToValueAtTime(1760, ctx.currentTime + 0.1);
+
+            gainNode.gain.setValueAtTime(0, ctx.currentTime);
+            gainNode.gain.linearRampToValueAtTime(0.3, ctx.currentTime + 0.05);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.3);
+
+            osc.connect(gainNode);
+            gainNode.connect(ctx.destination);
+
+            osc.start();
+            osc.stop(ctx.currentTime + 0.4);
+        } catch (e) {
+            // Audio context might be blocked if no user interaction occurred yet
+            console.log('Audio disabled until user interacts');
+        }
+    }
+
+    function toggleLeadForm() {
+        const formEl = document.getElementById('floating-lead-form');
+        const btnEl = document.getElementById('floating-lead-btn');
+
+        if (floatingFormVisible) {
+            formEl.classList.add('hidden');
+            btnEl.classList.remove('hidden');
+            btnEl.classList.add('flex');
+            floatingFormVisible = false;
+        } else {
+            formEl.classList.remove('hidden');
+            btnEl.classList.remove('flex');
+            btnEl.classList.add('hidden');
+            floatingFormVisible = true;
+        }
+    }
+
+    // Trigger logic
+    // We wait 10 seconds before popping up the form
+    setTimeout(() => {
+        if (!hasTriggeredForm && shouldShowLeadForm()) {
+            hasTriggeredForm = true;
+            document.getElementById('floating-lead-form-container').classList.remove('translate-y-[150%]');
+            floatingFormVisible = true;
+
+            // Wait a tiny bit for the slide animation to start before playing sound
+            setTimeout(playNotificationSound, 100);
+        }
+    }, 10000);
+
+    // Form Submission Logic
+    document.getElementById('lead-submit-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const btn = document.getElementById('lead-submit-btn');
+        const name = document.getElementById('lead-name').value;
+        const email = document.getElementById('lead-email').value;
+        const service = document.getElementById('lead-service').value;
+        const msg = document.getElementById('lead-description').value;
+
+        // Change button state
+        const originalText = btn.innerText;
+        btn.innerText = 'Sending...';
+        btn.disabled = true;
+
+        const formData = new FormData();
+        formData.append('name', name);
+        formData.append('email', email);
+        formData.append('service', service);
+        formData.append('message', msg);
+
+        fetch('/process-lead.php', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.text())
+            .then(data => {
+                // Show toast
+                const toast = document.getElementById('lead-toast');
+                toast.classList.remove('translate-x-[150%]', 'opacity-0');
+
+                // Hide Form
+                toggleLeadForm();
+                this.reset();
+
+                // Save to localStorage so it doesn't show for 7 days
+                localStorage.setItem(LEAD_FORM_STORAGE_KEY, Date.now().toString());
+
+                // Hide toast after 4s
+                setTimeout(() => {
+                    toast.classList.add('translate-x-[150%]', 'opacity-0');
+                }, 4000);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert("Something went wrong. Please try again.");
+            })
+            .finally(() => {
+                btn.innerText = originalText;
+                btn.disabled = false;
+            });
+    });
+</script>
 </body>
 
 </html>

@@ -530,7 +530,9 @@
                             <a href="/services/intercom-systems.php" class="m-sub-link">Intercom Systems</a>
                             <a href="/services/ip-phone-solutions.php" class="m-sub-link">IP Telephony</a>
                             <a href="/services/endpoint-security.php" class="m-sub-link">Endpoint Protection</a>
-                            <a href="/services/email-security.php" class="m-sub-link">Email Security</a>
+                            <a href="/services/email-security.php" class="m-sub-link">Email & Anti-Spam</a>
+                            <a href="/services/dlp-solution.php" class="m-sub-link">Data Loss Prevention</a>
+                            <a href="/services/vulnerability-management.php" class="m-sub-link">Vulnerability Audit</a>
                         </div>
                     </div>
 

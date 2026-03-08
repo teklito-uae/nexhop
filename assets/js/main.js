@@ -1,18 +1,18 @@
 // Flash Fix Technologies - Main JavaScript
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Initialize animations
     initializeAnimations();
-    
+
     // Initialize smooth scrolling
     initializeSmoothScrolling();
-    
+
     // Initialize form validation
     initializeFormValidation();
-    
+
     // Initialize navbar effects
     initializeNavbarEffects();
-    
+
     // Initialize counter animations
     initializeCounters();
 });
@@ -23,15 +23,15 @@ function initializeAnimations() {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
     };
-    
-    const observer = new IntersectionObserver(function(entries) {
+
+    const observer = new IntersectionObserver(function (entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('fade-in-up');
             }
         });
     }, observerOptions);
-    
+
     // Observe elements for animation
     const animatedElements = document.querySelectorAll('.card, .service-card, .product-category, .why-choose-item');
     animatedElements.forEach(el => observer.observe(el));
@@ -56,30 +56,30 @@ function initializeSmoothScrolling() {
 // Form validation
 function initializeFormValidation() {
     const forms = document.querySelectorAll('.needs-validation');
-    
+
     forms.forEach(form => {
-        form.addEventListener('submit', function(event) {
+        form.addEventListener('submit', function (event) {
             if (!form.checkValidity()) {
                 event.preventDefault();
                 event.stopPropagation();
             }
-            
+
             form.classList.add('was-validated');
         });
     });
-    
+
     // Real-time validation feedback
     const inputs = document.querySelectorAll('.form-control');
     inputs.forEach(input => {
-        input.addEventListener('blur', function() {
+        input.addEventListener('blur', function () {
             if (this.value.trim() !== '') {
                 this.classList.add('is-valid');
             } else if (this.hasAttribute('required')) {
                 this.classList.add('is-invalid');
             }
         });
-        
-        input.addEventListener('input', function() {
+
+        input.addEventListener('input', function () {
             this.classList.remove('is-valid', 'is-invalid');
         });
     });
@@ -88,9 +88,9 @@ function initializeFormValidation() {
 // Navbar effects
 function initializeNavbarEffects() {
     const navbar = document.querySelector('.navbar');
-    
+
     if (navbar) {
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             if (window.scrollY > 50) {
                 navbar.classList.add('navbar-scrolled');
             } else {
@@ -98,13 +98,13 @@ function initializeNavbarEffects() {
             }
         });
     }
-    
+
     // Active link highlighting
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-    
+
     navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPath || 
+        if (link.getAttribute('href') === currentPath ||
             (currentPath === '/' && link.getAttribute('href') === '/')) {
             link.classList.add('active');
         }
@@ -114,8 +114,8 @@ function initializeNavbarEffects() {
 // Counter animations
 function initializeCounters() {
     const counters = document.querySelectorAll('.counter');
-    
-    const counterObserver = new IntersectionObserver(function(entries) {
+
+    const counterObserver = new IntersectionObserver(function (entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 animateCounter(entry.target);
@@ -123,7 +123,7 @@ function initializeCounters() {
             }
         });
     }, { threshold: 0.5 });
-    
+
     counters.forEach(counter => counterObserver.observe(counter));
 }
 
@@ -132,7 +132,7 @@ function animateCounter(element) {
     const duration = 2000; // 2 seconds
     const increment = target / (duration / 16); // 60fps
     let current = 0;
-    
+
     const timer = setInterval(() => {
         current += increment;
         if (current >= target) {
@@ -146,45 +146,45 @@ function animateCounter(element) {
 // Contact form handling
 function handleContactForm() {
     const contactForm = document.getElementById('contactForm');
-    
+
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
+        contactForm.addEventListener('submit', function (e) {
             e.preventDefault();
-            
+
             // Get form data
             const formData = new FormData(this);
             const submitBtn = this.querySelector('button[type="submit"]');
             const originalBtnText = submitBtn.innerHTML;
-            
+
             // Show loading state
             submitBtn.innerHTML = '<span class="loading"></span> Sending...';
             submitBtn.disabled = true;
-            
+
             // Submit form via AJAX
             fetch('/sendmail.php', {
                 method: 'POST',
                 body: formData
             })
-            .then(response => response.json())
-            .then(data => {
-                if (data.success) {
-                    // Show success message
-                    showAlert('success', 'Thank you! Your message has been sent successfully.');
-                    contactForm.reset();
-                } else {
-                    // Show error message
-                    showAlert('danger', data.message || 'Sorry, there was an error sending your message.');
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                showAlert('danger', 'Sorry, there was an error sending your message.');
-            })
-            .finally(() => {
-                // Reset button state
-                submitBtn.innerHTML = originalBtnText;
-                submitBtn.disabled = false;
-            });
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        // Show success message
+                        showAlert('success', 'Thank you! Your message has been sent successfully.');
+                        contactForm.reset();
+                    } else {
+                        // Show error message
+                        showAlert('danger', data.message || 'Sorry, there was an error sending your message.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    showAlert('danger', 'Sorry, there was an error sending your message.');
+                })
+                .finally(() => {
+                    // Reset button state
+                    submitBtn.innerHTML = originalBtnText;
+                    submitBtn.disabled = false;
+                });
         });
     }
 }
@@ -197,12 +197,12 @@ function showAlert(type, message) {
             <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
         </div>
     `;
-    
+
     // Insert alert at the top of the page or form
     const container = document.querySelector('.contact-form') || document.querySelector('.container');
     if (container) {
         container.insertAdjacentHTML('afterbegin', alertHtml);
-        
+
         // Auto-dismiss after 5 seconds
         setTimeout(() => {
             const alert = container.querySelector('.alert');
@@ -218,17 +218,17 @@ function showAlert(type, message) {
 function enhanceMobileMenu() {
     const navbarToggler = document.querySelector('.navbar-toggler');
     const navbarCollapse = document.querySelector('.navbar-collapse');
-    
+
     if (navbarToggler && navbarCollapse) {
         // Close mobile menu when clicking outside
-        document.addEventListener('click', function(e) {
+        document.addEventListener('click', function (e) {
             if (!navbarToggler.contains(e.target) && !navbarCollapse.contains(e.target)) {
                 if (navbarCollapse.classList.contains('show')) {
                     navbarToggler.click();
                 }
             }
         });
-        
+
         // Close mobile menu when clicking on a link
         const navLinks = navbarCollapse.querySelectorAll('.nav-link');
         navLinks.forEach(link => {
@@ -241,42 +241,8 @@ function enhanceMobileMenu() {
     }
 }
 
-// Back to top button
-function initializeBackToTop() {
-    const backToTopBtn = document.createElement('button');
-    backToTopBtn.innerHTML = '<i class="bi bi-arrow-up"></i>';
-    backToTopBtn.className = 'btn btn-primary btn-sm back-to-top';
-    backToTopBtn.style.cssText = `
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        z-index: 1050;
-        display: none;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        padding: 0;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    `;
-    
-    document.body.appendChild(backToTopBtn);
-    
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 300) {
-            backToTopBtn.style.display = 'block';
-        } else {
-            backToTopBtn.style.display = 'none';
-        }
-    });
-    
-    backToTopBtn.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-}
-
 // Initialize enhanced features
 enhanceMobileMenu();
-initializeBackToTop();
 
 // Add CSS for navbar scroll effect
 const style = document.createElement('style');
@@ -285,11 +251,6 @@ style.textContent = `
         background-color: rgba(26, 26, 26, 0.95) !important;
         backdrop-filter: blur(10px);
         box-shadow: 0 2px 20px rgba(0,0,0,0.1);
-    }
-    
-    .back-to-top:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(0,0,0,0.3);
     }
 `;
 document.head.appendChild(style);

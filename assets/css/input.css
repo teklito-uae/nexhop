@@ -167,6 +167,26 @@
     .animate-logo-carousel {
         animation: logo-carousel 35s linear infinite;
     }
+
+    .animate-logo-carousel-reverse {
+        animation: logo-carousel-reverse 35s linear infinite;
+    }
+
+    .animate-cursor {
+        animation: cursor-blink 1s step-end infinite;
+    }
+}
+
+@keyframes cursor-blink {
+
+    from,
+    to {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
 }
 
 /* SaaS UI Card */
@@ -200,13 +220,14 @@
     height: 3em;
     border-radius: 50%;
     border: 2px solid #ddd;
-    box-shadow: -10px -10px 10px #6359f8, 0px -10px 10px 0px #9c32e2, 10px -10px 10px #f36896, 10px 0 10px #ff0b0b, 10px 10px 10px 0px #ff5500, 0 10px 10px 0px #ff9500, -10px 10px 10px 0px #ffb700;
+    box-shadow: -10px -10px 10px #2563eb, 0px -10px 10px 0px #3b82f6, 10px -10px 10px #06b6d4, 10px 0 10px #22d3ee, 10px 10px 10px 0px #3b82f6, 0 10px 10px 0px #06b6d4, -10px 10px 10px 0px #2563eb;
     animation: rot55 0.7s linear infinite;
     position: relative;
 }
 
 .dark .spinner {
     border-color: #1e293b;
+    box-shadow: -10px -10px 15px #3b82f6, 0px -10px 15px 0px #2563eb, 10px -10px 15px #06b6d4, 10px 0 15px #22d3ee, 10px 10px 15px 0px #3b82f6, 0 10px 15px 0px #06b6d4, -10px 10px 15px 0px #2563eb;
 }
 
 .spinnerin {
@@ -283,5 +304,13 @@
 
     100% {
         transform: translateX(-50%);
+    }
+}
+@keyframes logo-carousel-reverse {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
     }
 }
