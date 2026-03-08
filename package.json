@@ -1,0 +1,25 @@
+{
+  "name": "flashfix",
+  "version": "1.0.0",
+  "description": "A modern, responsive HTML5 + PHP based static website for Flash Fix Technologies Dubai, an IT solutions and networking products provider in the UAE.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teklito-uae/flashfix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/teklito-uae/flashfix/issues"
+  },
+  "homepage": "https://github.com/teklito-uae/flashfix#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "tailwindcss": "^4.2.1"
+  }
+}
