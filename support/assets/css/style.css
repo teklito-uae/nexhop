@@ -49,6 +49,97 @@
     --transition-slow: 300ms ease;
 }
 
+/* ── Light Theme Override ──────────────── */
+[data-theme="light"] {
+    --primary: #2563EB;
+    --primary-light: #2563EB;
+    --secondary: #3B82F6;
+    --accent: #0891B2;
+    --accent-light: #0891B2;
+
+    --bg-base: #F8FAFC;
+    --bg-surface: #FFFFFF;
+    --bg-surface-2: #F1F5F9;
+    --bg-elevated: #E2E8F0;
+
+    --text-main: #0F172A;
+    --text-muted: #475569;
+    --text-soft: #94A3B8;
+
+    --border-100: #E2E8F0;
+    --border-200: #CBD5E1;
+
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+    --shadow-lg: 0 8px 24px rgba(0,0,0,0.1);
+    --shadow-glow: 0 0 20px rgba(37,99,235,0.15);
+}
+
+[data-theme="light"] .admin-topbar {
+    background: rgba(255,255,255,0.85);
+}
+
+[data-theme="light"] .navbar {
+    background: rgba(255,255,255,0.9);
+}
+
+[data-theme="light"] .sidebar-overlay {
+    background: rgba(0,0,0,0.3);
+}
+
+[data-theme="light"] .login-page::before {
+    background: radial-gradient(circle, rgba(37,99,235,0.08), transparent 70%);
+}
+
+[data-theme="light"] .login-page::after {
+    background: radial-gradient(circle, rgba(6,182,212,0.06), transparent 70%);
+}
+
+[data-theme="light"] .data-table tbody tr:hover {
+    background: rgba(37,99,235,0.04);
+}
+
+[data-theme="light"] .sidebar-nav a:hover {
+    background: rgba(37,99,235,0.06);
+}
+
+[data-theme="light"] .sidebar-nav a.active {
+    background: rgba(37,99,235,0.1);
+}
+
+/* Theme toggle button */
+.theme-toggle-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-md);
+    background: var(--bg-surface);
+    border: 1px solid var(--border-100);
+    color: var(--text-muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition);
+    flex-shrink: 0;
+}
+
+.theme-toggle-btn:hover {
+    border-color: var(--primary-light);
+    color: var(--primary-light);
+    background: var(--bg-elevated);
+}
+
+.theme-toggle-btn .icon-sun,
+.theme-toggle-btn .icon-moon { display: none; }
+
+/* Dark mode (default): show sun icon */
+.theme-toggle-btn .icon-sun { display: block; }
+.theme-toggle-btn .icon-moon { display: none; }
+
+/* Light mode: show moon icon */
+[data-theme="light"] .theme-toggle-btn .icon-sun { display: none; }
+[data-theme="light"] .theme-toggle-btn .icon-moon { display: block; }
+
 /* ── Reset ──────────────────────────────── */
 *, *::before, *::after {
     box-sizing: border-box;

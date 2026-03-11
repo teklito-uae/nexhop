@@ -2,6 +2,26 @@
  * FlashFix Support Ticket Platform - Frontend JS
  */
 
+// ── Theme Toggle ──────────────────────────
+(function() {
+    // Apply saved theme immediately (before DOM ready to prevent flash)
+    var saved = localStorage.getItem('support-theme');
+    if (saved === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+})();
+
+function toggleTheme() {
+    var html = document.documentElement;
+    if (html.getAttribute('data-theme') === 'light') {
+        html.removeAttribute('data-theme');
+        localStorage.setItem('support-theme', 'dark');
+    } else {
+        html.setAttribute('data-theme', 'light');
+        localStorage.setItem('support-theme', 'light');
+    }
+}
+
 // ── Toast Auto-dismiss ────────────────────
 document.addEventListener('DOMContentLoaded', function() {
     const toast = document.getElementById('flash-toast');
