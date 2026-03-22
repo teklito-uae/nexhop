@@ -1,5 +1,5 @@
 <?php
-$title = "Desktop as a Service (DaaS) - Flash Fix Technologies";
+$title = "Desktop as a Service (DaaS) - Nexhop Computers";
 $description = "Flexible and secure Desktop as a Service (DaaS) solutions in Dubai, UAE. Provide virtual desktops to your employees from the cloud, accessible from any device, anywhere.";
 $keywords = "DaaS Dubai, Desktop as a Service, virtual desktop infrastructure, VDI, cloud desktop, remote work solutions, Azure Virtual Desktop, VMware Horizon Cloud, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Empower Your Workforce with Cloud-Delivered Desktops</h2>
-                <p class="text-gray-700 mb-4">Desktop as a Service (DaaS) revolutionizes how businesses deliver and manage end-user computing. Flash Fix Technologies provides comprehensive DaaS solutions in Dubai, UAE, offering secure, scalable, and fully managed virtual desktops from the cloud. This enables your employees to access their personalized desktop environments, applications, and data from any device, anywhere, at any time.</p>
+                <p class="text-gray-700 mb-4">Desktop as a Service (DaaS) revolutionizes how businesses deliver and manage end-user computing. Nexhop Computers provides comprehensive DaaS solutions in Dubai, UAE, offering secure, scalable, and fully managed virtual desktops from the cloud. This enables your employees to access their personalized desktop environments, applications, and data from any device, anywhere, at any time.</p>
                 <p class="text-gray-700 mb-6">DaaS eliminates the need for costly on-premises infrastructure, simplifies IT management, and enhances security by centralizing data and applications. It's the ideal solution for remote work, flexible workforces, and businesses looking to reduce operational costs while boosting productivity.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits of Our DaaS Solutions:</h3>

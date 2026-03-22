@@ -1,5 +1,5 @@
 <?php
-$title = "Call Center Solutions Dubai - Contact Center Technology | Flash Fix";
+$title = "Call Center Solutions Dubai - Contact Center Technology | Nexhop";
 $description = "Advanced call center solutions in Dubai, UAE. Transform your customer service with intelligent routing, CRM integration, and omnichannel support platforms.";
 $keywords = "call center solutions Dubai, contact center, VoIP call center, customer service, CRM integration, call routing, analytics, Dubai, UAE";
 include '../includes/header.php';
@@ -148,7 +148,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

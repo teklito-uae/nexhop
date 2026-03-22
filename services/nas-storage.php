@@ -1,5 +1,5 @@
 <?php
-$title = "NAS Storage Solutions - Flash Fix Technologies";
+$title = "NAS Storage Solutions - Nexhop Computers";
 $description = "Network Attached Storage (NAS) solutions for businesses in Dubai, UAE. Centralize your data, enable easy file sharing, and implement robust backup strategies with scalable NAS devices.";
 $keywords = "NAS storage Dubai, Network Attached Storage, file sharing, data centralization, data backup, Synology, QNAP, Western Digital, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Simplify Data Management and Enhance Collaboration</h2>
-                <p class="text-gray-700 mb-4">Network Attached Storage (NAS) devices provide a flexible and cost-effective way to centralize your business data, enable easy file sharing among employees, and implement robust backup strategies. Flash Fix Technologies offers comprehensive NAS Storage Solutions in Dubai, UAE, helping you select, deploy, and manage the perfect NAS system to meet your data storage and accessibility needs.</p>
+                <p class="text-gray-700 mb-4">Network Attached Storage (NAS) devices provide a flexible and cost-effective way to centralize your business data, enable easy file sharing among employees, and implement robust backup strategies. Nexhop Computers offers comprehensive NAS Storage Solutions in Dubai, UAE, helping you select, deploy, and manage the perfect NAS system to meet your data storage and accessibility needs.</p>
                 <p class="text-gray-700 mb-6">Whether you're a small business needing a simple file server or a larger enterprise requiring advanced data management features, our NAS solutions offer scalability, data protection, and user-friendly interfaces. Consolidate your data, improve collaboration, and ensure your information is always available and secure.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits of Our NAS Solutions:</h3>

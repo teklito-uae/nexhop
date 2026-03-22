@@ -3,14 +3,17 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10 mb-10 sm:mb-12">
             <!-- Company Info -->
             <div class="sm:col-span-2 lg:col-span-2">
-                <a href="/"
-                    class="text-xl sm:text-2xl font-extrabold text-gray-900 dark:text-white tracking-tight block mb-4">
-                    Flash<span class="text-gradient-accent">Fix</span>
+                <a href="/" class="block mb-4">
+                    <img src="/assets/nexhop.webp" alt="Nexhop" class="h-10 w-auto">
                 </a>
                 <p class="text-gray-500 dark:text-slate-400 text-xs sm:text-sm mb-6 max-w-sm leading-relaxed">
-                    Flash Fix Technologies is a leading IT solutions provider in Dubai, delivering enterprise-grade
-                    infrastructure, networking, and security services. Part of the renowned Hiba Computer Group.
+                    Nexhop Computers is a UAE-based IT and networking solutions provider, specializing in enterprise, commercial, and SMB technology infrastructure.
                 </p>
+                <div class="text-gray-500 dark:text-slate-400 text-xs sm:text-sm mb-6 space-y-2">
+                    <p><strong>Address:</strong> #03, Sulthan Building, Computer Market, Burdubai - Al Souq Al Kabeer - Al Fahidi - Dubai</p>
+                    <p><strong>Phone:</strong> +971 55 902 6521, +971 50 395 8313</p>
+                    <p><strong>Email:</strong> sales@nexhop.ae, salman@nexhop.ae</p>
+                </div>
                 <div class="flex space-x-3">
                     <a href="#"
                         class="w-8 h-8 rounded-lg bg-gray-100 dark:bg-white/5 border border-gray-200 dark:border-white/10 flex items-center justify-center text-gray-400 dark:text-slate-400 hover:text-blue-500 dark:hover:text-white hover:border-blue-500/40 transition-all text-xs">
@@ -118,11 +121,9 @@
         <div
             class="pt-6 border-t border-gray-200 dark:border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs">
             <p class="text-gray-400 dark:text-slate-500">&copy; <?php echo date('Y'); ?> <span
-                    class="text-gray-600 dark:text-slate-300 font-medium">Flash Fix Technologies</span>. All rights
+                    class="text-gray-600 dark:text-slate-300 font-medium">Nexhop Computer Trading LLC</span>. All rights
                 reserved.</p>
             <div class="flex items-center gap-3 sm:gap-5">
-                <span class="text-gray-400 dark:text-slate-500">Part of <strong
-                        class="text-gray-600 dark:text-slate-300">Hiba Computer Group</strong></span>
                 <a href="/contact.php"
                     class="text-gray-400 dark:text-slate-400 hover:text-blue-600 dark:hover:text-white transition-colors">Privacy</a>
                 <a href="/contact.php"
@@ -220,7 +221,7 @@
 <script>
     let floatingFormVisible = false;
     let hasTriggeredForm = false;
-    const LEAD_FORM_STORAGE_KEY = 'flashfix_lead_form_submitted';
+    const LEAD_FORM_STORAGE_KEY = 'nexhop_lead_form_submitted';
     const LEAD_FORM_COOLDOWN_DAYS = 7;
 
     function shouldShowLeadForm() {

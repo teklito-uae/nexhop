@@ -1,5 +1,5 @@
 <?php
-$title = "Video Wall Solutions Dubai - LED & LCD Displays | Flash Fix";
+$title = "Video Wall Solutions Dubai - LED & LCD Displays | Nexhop";
 $description = "Premium video wall solutions in Dubai, UAE. Immersive LED/LCD displays for control rooms, retail, and corporate lobbies by Samsung, LG, and Barco.";
 $keywords = "video wall Dubai, LED video wall, LCD video wall, control room displays, digital signage, immersive displays, Samsung, LG, Barco, Dubai, UAE";
 include '../includes/header.php';
@@ -148,7 +148,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center lg:text-left">
             <div class="flex flex-col lg:flex-row items-center gap-12">

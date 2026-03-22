@@ -1,6 +1,6 @@
 <?php
 /**
- * FlashFix Support - Customer Ticket Detail View
+ * Nexhop Support - Customer Ticket Detail View
  */
 require_once __DIR__ . '/config.php';
 requireCustomerLogin();

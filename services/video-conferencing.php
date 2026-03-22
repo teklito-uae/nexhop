@@ -1,5 +1,5 @@
 <?php
-$title = "Video Conferencing Solutions Dubai - Smart Meeting Rooms | Flash Fix";
+$title = "Video Conferencing Solutions Dubai - Smart Meeting Rooms | Nexhop";
 $description = "Professional video conferencing solutions in Dubai, UAE. Transform your boardrooms with High-Definition Zoom Rooms, Microsoft Teams Rooms, and Poly solutions.";
 $keywords = "video conferencing Dubai, remote collaboration, online meetings, Zoom Rooms, Microsoft Teams Rooms, Cisco Webex, Poly, Dubai, UAE";
 include '../includes/header.php';
@@ -146,7 +146,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

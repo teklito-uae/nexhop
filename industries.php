@@ -1,5 +1,5 @@
 <?php
-$title = "Industries We Serve - Flash Fix Technologies | Specialized IT Solutions";
+$title = "Industries We Serve - Nexhop Computers | Specialized IT Solutions";
 $description = "Tailored IT solutions for a wide range of industries in Dubai and the UAE, including SMBs, retail, corporate, logistics, hospitality, healthcare, and education.";
 $keywords = "IT solutions by industry, SMB IT, retail IT, corporate IT, logistics IT, hospitality IT, healthcare IT, education IT, Dubai, UAE";
 include 'includes/header.php';

@@ -1,5 +1,5 @@
 <?php
-$title = "Smart Classroom Solutions - Flash Fix Technologies";
+$title = "Smart Classroom Solutions - Nexhop Computers";
 $description = "Innovative smart classroom solutions for educational institutions in Dubai, UAE. Enhance learning and teaching with interactive displays, digital whiteboards, and integrated AV systems.";
 $keywords = "smart classroom Dubai, education technology, interactive learning, digital whiteboard, AV integration, education solutions, Promethean, ViewSonic, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Empowering Educators and Engaging Students with Technology</h2>
-                <p class="text-gray-700 mb-4">The future of education is interactive, collaborative, and technology-driven. Flash Fix Technologies provides innovative Smart Classroom Solutions for schools, colleges, and universities in Dubai, UAE. We design and integrate advanced audio-video, interactive, and communication technologies to create dynamic learning environments that empower educators and engage students.</p>
+                <p class="text-gray-700 mb-4">The future of education is interactive, collaborative, and technology-driven. Nexhop Computers provides innovative Smart Classroom Solutions for schools, colleges, and universities in Dubai, UAE. We design and integrate advanced audio-video, interactive, and communication technologies to create dynamic learning environments that empower educators and engage students.</p>
                 <p class="text-gray-700 mb-6">Our solutions go beyond traditional classrooms, offering tools that facilitate active learning, remote participation, and personalized instruction. From interactive displays and digital whiteboards to integrated AV systems and classroom management software, we help educational institutions foster a more effective and inspiring learning experience.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Our Smart Classroom Solutions Include:</h3>

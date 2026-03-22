@@ -1,5 +1,5 @@
 <?php
-$title = "24/7 Remote IT Support Dubai & UAE - Immediate Tech Resolution | Flash Fix";
+$title = "24/7 Remote IT Support Dubai & UAE - Immediate Tech Resolution | Nexhop";
 $description = "Professional 24/7 remote IT support in Dubai. Fast, secure online IT helpdesk for software, network, and security issues. Immediate tech assistance across the UAE.";
 $keywords = "Remote IT support Dubai, IT helpdesk UAE, online IT troubleshooting, 24/7 technical support, remote desktop support Sharjah, IT support Abu Dhabi";
 include '../includes/header.php';
@@ -145,7 +145,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">
@@ -534,7 +534,7 @@ include '../includes/navbar.php';
                         Fix Enterprise</span>
                     <h2 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-white mb-2 tracking-tight">Need
                         Immediate IT Support?</h2>
-                    <p class="text-xs text-blue-50/70">Connect with a FlashFix expert in under 15 minutes. Join 200+
+                    <p class="text-xs text-blue-50/70">Connect with a Nexhop expert in under 15 minutes. Join 200+
                         thriving businesses.</p>
                 </div>
 

@@ -1,5 +1,5 @@
 <?php
-$title = "Enterprise Server Solutions Dubai - Physical & Virtual Servers | Flash Fix";
+$title = "Enterprise Server Solutions Dubai - Physical & Virtual Servers | Nexhop";
 $description = "Comprehensive server solutions for businesses in Dubai, UAE. Design, installation, configuration, and maintenance of physical and virtual servers for optimal performance.";
 $keywords = "server solutions Dubai, server installation, server maintenance, virtual servers, physical servers, Dell PowerEdge, HP ProLiant, Lenovo ThinkSystem, Dubai, UAE";
 include '../includes/header.php';
@@ -151,7 +151,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

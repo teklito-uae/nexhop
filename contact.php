@@ -1,7 +1,7 @@
 <?php
-$title = "Contact Us - Flash Fix Technologies";
-$description = "Get in touch with Flash Fix Technologies for expert IT solutions in Dubai. Contact us for consultations, support, and services in Bur Dubai.";
-$keywords = "contact IT company, IT support Dubai, IT services contact, Flash Fix Technologies, Dubai, UAE, Bur Dubai";
+$title = "Contact Us - Nexhop Computers";
+$description = "Get in touch with Nexhop Computers for expert IT, networking, and enterprise solutions in Dubai. Contact us for consultations, support, and services.";
+$keywords = "contact IT company, IT support Dubai, IT services contact, Nexhop Computers, Dubai, UAE, Bur Dubai, networking solutions";
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
@@ -95,14 +95,13 @@ include 'includes/navbar.php';
                     <div class="space-y-8 relative z-10">
                         <div>
                             <h4 class="text-xl font-extrabold mb-3 shadow-sm">Address</h4>
-                            <p class="text-sm text-blue-100 leading-relaxed font-medium">Bur Dubai,<br>Dubai, United
-                                Arab Emirates</p>
+                            <p class="text-sm text-blue-100 leading-relaxed font-medium">#03, Sulthan Building, Computer Market<br>Burdubai - Al Souq Al Kabeer<br>Al Fahidi, Dubai, UAE</p>
                         </div>
                         <div>
                             <h4 class="text-xl font-extrabold mb-3 shadow-sm">Contact</h4>
                             <p class="text-sm text-blue-100 flex flex-col gap-2 font-medium">
-                                <span>Phone: +971 4 000 0000</span>
-                                <span>Email: info@flashfix.ae</span>
+                                <span>Phone: +971 55 902 6521<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+971 50 395 8313</span>
+                                <span>Email: sales@nexhop.ae<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;salman@nexhop.ae</span>
                             </p>
                         </div>
                         <div>
@@ -158,14 +157,13 @@ include 'includes/navbar.php';
             <div class="w-full lg:hidden p-8 bg-blue-600 text-white flex flex-col gap-8">
                 <div>
                     <h4 class="text-xl font-extrabold mb-3">Address</h4>
-                    <p class="text-sm text-blue-100 leading-relaxed font-medium">Bur Dubai,<br>Dubai, United Arab
-                        Emirates</p>
+                    <p class="text-sm text-blue-100 leading-relaxed font-medium">#03, Sulthan Building, Computer Market<br>Burdubai - Al Souq Al Kabeer<br>Al Fahidi, Dubai, UAE</p>
                 </div>
                 <div>
                     <h4 class="text-xl font-extrabold mb-3">Contact</h4>
                     <p class="text-sm text-blue-100 flex flex-col gap-2 font-medium">
-                        <span>Phone: +971 4 000 0000</span>
-                        <span>Email: info@flashfix.ae</span>
+                        <span>Phone: +971 55 902 6521<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+971 50 395 8313</span>
+                        <span>Email: sales@nexhop.ae<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;salman@nexhop.ae</span>
                     </p>
                 </div>
             </div>
@@ -174,11 +172,7 @@ include 'includes/navbar.php';
         <!-- Map Section -->
         <div
             class="rounded-[2.5rem] overflow-hidden shadow-sm border border-gray-200 dark:border-white/5 h-[400px] mb-24 relative bg-white grayscale-[0.2]">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14435.597951239564!2d55.289299499999995!3d25.25301885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4325a666e8ad%3A0xc3c9f56360b9bc2b!2sBur%20Dubai%20-%20Al%20Mankhool%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sus!4v1715000000000!5m2!1sen!2sus"
-                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="absolute inset-0">
-            </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2819206985373!2d55.290345!3d25.2611001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43004f4ec825%3A0x71b2b1fa8d77e721!2sNEXHOP%20COMPUTER%20L.L.C!5e0!3m2!1sen!2sae!4v1774220622614!5m2!1sen!2sae" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="absolute inset-0"></iframe>
         </div>
 
         <!-- Newsletter Section -->

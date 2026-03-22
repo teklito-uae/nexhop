@@ -1,5 +1,5 @@
 <?php
-$title = "User Collaboration Tools Dubai - Teams & Workspace | Flash Fix";
+$title = "User Collaboration Tools Dubai - Teams & Workspace | Nexhop";
 $description = "Enhance team productivity in Dubai with advanced collaboration tools. Implement Microsoft Teams, SharePoint, and Google Workspace with expert setup and support.";
 $keywords = "collaboration tools Dubai, Microsoft Teams, SharePoint, Google Workspace, unified communications, team productivity, remote collaboration, Dubai, UAE";
 include '../includes/header.php';
@@ -150,7 +150,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden text-center lg:text-left">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

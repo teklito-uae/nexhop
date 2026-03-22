@@ -1,5 +1,5 @@
 <?php
-$title = "Synchronized Data Storage - Flash Fix Technologies";
+$title = "Synchronized Data Storage - Nexhop Computers";
 $description = "Implement synchronized data storage solutions in Dubai, UAE. Ensure data consistency, availability, and real-time access across multiple locations and devices.";
 $keywords = "synchronized data storage Dubai, data synchronization, real-time data access, data consistency, cloud sync, file sync and share, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Seamless Data Access and Collaboration for Distributed Teams</h2>
-                <p class="text-gray-700 mb-4">In today's dynamic business environment, ensuring that your data is consistent, up-to-date, and accessible across multiple locations and devices is crucial for productivity and collaboration. Flash Fix Technologies offers advanced Synchronized Data Storage Solutions in Dubai, UAE, designed to provide real-time data access and maintain data integrity for your distributed workforce.</p>
+                <p class="text-gray-700 mb-4">In today's dynamic business environment, ensuring that your data is consistent, up-to-date, and accessible across multiple locations and devices is crucial for productivity and collaboration. Nexhop Computers offers advanced Synchronized Data Storage Solutions in Dubai, UAE, designed to provide real-time data access and maintain data integrity for your distributed workforce.</p>
                 <p class="text-gray-700 mb-6">Whether you need to synchronize files between branch offices, enable secure file sharing for remote employees, or ensure data consistency across cloud and on-premises environments, our solutions provide seamless integration and robust data management. Enhance collaboration, reduce data discrepancies, and improve operational efficiency with our synchronized storage services.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits of Our Synchronized Data Storage:</h3>

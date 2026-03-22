@@ -1,5 +1,5 @@
 <?php
-$title = "Web Hosting Services - Flash Fix Technologies";
+$title = "Web Hosting Services - Nexhop Computers";
 $description = "Reliable web hosting services in Dubai, UAE. Secure and high-performance hosting solutions for websites, applications, and business data with 24/7 support.";
 $keywords = "web hosting Dubai, cloud hosting, dedicated server, shared hosting, VPS hosting, domain registration, website hosting, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Reliable Infrastructure for Your Website and Applications</h2>
-                <p class="text-gray-700 mb-4">A strong online presence begins with reliable web hosting. Flash Fix Technologies offers a range of secure and high-performance Web Hosting Services in Dubai, UAE, tailored to meet the diverse needs of businesses, from small startups to large enterprises. We provide the robust infrastructure necessary to ensure your websites and applications are always accessible, fast, and secure.</p>
+                <p class="text-gray-700 mb-4">A strong online presence begins with reliable web hosting. Nexhop Computers offers a range of secure and high-performance Web Hosting Services in Dubai, UAE, tailored to meet the diverse needs of businesses, from small startups to large enterprises. We provide the robust infrastructure necessary to ensure your websites and applications are always accessible, fast, and secure.</p>
                 <p class="text-gray-700 mb-6">Whether you require shared hosting for a simple website, a powerful VPS for growing applications, or dedicated servers for mission-critical operations, our hosting solutions are designed for optimal performance, scalability, and peace of mind. Focus on your business, and let us handle the complexities of your online infrastructure.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Our Web Hosting Solutions Include:</h3>
@@ -47,7 +47,7 @@ include '../includes/navbar.php';
             <div class="md:w-1/3 mt-12 md:mt-0">
                 <div class="bg-white p-8 rounded-lg shadow-lg">
                     <h3 class="text-2xl font-bold text-secondary mb-4">Power Your Online Presence</h3>
-                    <p class="text-gray-700 mb-6">Choose Flash Fix Technologies for reliable, secure, and high-performance web hosting solutions.</p>
+                    <p class="text-gray-700 mb-6">Choose Nexhop Computers for reliable, secure, and high-performance web hosting solutions.</p>
                     <a href="/contact.php" class="w-full text-center bg-primary hover:bg-accent text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105">Get a Hosting Quote</a>
                 </div>
             </div>

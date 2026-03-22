@@ -1,5 +1,5 @@
 <?php
-$title = "IT Consulting Services - Flash Fix Technologies";
+$title = "IT Consulting Services - Nexhop Computers";
 $description = "Strategic IT consulting services in Dubai, UAE. Get expert advice on IT strategy, digital transformation, cybersecurity, and infrastructure optimization to drive business growth.";
 $keywords = "IT consulting Dubai, IT strategy, digital transformation, cybersecurity consulting, infrastructure optimization, technology advisory, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Unlock Your Business Potential with Expert IT Advice</h2>
-                <p class="text-gray-700 mb-4">In today's rapidly evolving technological landscape, making informed IT decisions is crucial for business success. Flash Fix Technologies offers strategic IT Consulting Services, providing expert guidance to help you align your technology investments with your business objectives, optimize operations, and achieve sustainable growth.</p>
+                <p class="text-gray-700 mb-4">In today's rapidly evolving technological landscape, making informed IT decisions is crucial for business success. Nexhop Computers offers strategic IT Consulting Services, providing expert guidance to help you align your technology investments with your business objectives, optimize operations, and achieve sustainable growth.</p>
                 <p class="text-gray-700 mb-6">Our experienced IT consultants work closely with your team to understand your unique challenges and opportunities. We provide actionable insights and develop tailored strategies for digital transformation, cybersecurity, cloud adoption, infrastructure optimization, and more, ensuring your IT ecosystem is robust, efficient, and future-ready.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Our IT Consulting Expertise:</h3>

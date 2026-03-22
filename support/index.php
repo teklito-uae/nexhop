@@ -1,6 +1,6 @@
 <?php
 /**
- * FlashFix Support - Customer Login (Magic Link)
+ * Nexhop Support - Customer Login (Magic Link)
  */
 require_once __DIR__ . '/config.php';
 

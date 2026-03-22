@@ -1,5 +1,5 @@
 <?php
-$title = "Crisis Room Solutions - Flash Fix Technologies";
+$title = "Crisis Room Solutions - Nexhop Computers";
 $description = "Advanced crisis room solutions for effective emergency management in Dubai, UAE. Equip your command center with state-of-the-art audio-video, communication, and data visualization tools.";
 $keywords = "crisis room Dubai, emergency operations center, EOC, command center, audio video integration, crisis management, data visualization, communication systems, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">State-of-the-Art Command Centers for Critical Situations</h2>
-                <p class="text-gray-700 mb-4">In times of crisis, rapid and informed decision-making is paramount. Flash Fix Technologies specializes in designing and implementing advanced Crisis Room Solutions (also known as Emergency Operations Centers or Command Centers) in Dubai, UAE. We equip these critical environments with state-of-the-art audio-video, communication, and data visualization technologies to facilitate seamless information flow and effective crisis management.</p>
+                <p class="text-gray-700 mb-4">In times of crisis, rapid and informed decision-making is paramount. Nexhop Computers specializes in designing and implementing advanced Crisis Room Solutions (also known as Emergency Operations Centers or Command Centers) in Dubai, UAE. We equip these critical environments with state-of-the-art audio-video, communication, and data visualization technologies to facilitate seamless information flow and effective crisis management.</p>
                 <p class="text-gray-700 mb-6">Our solutions ensure that your crisis management team has access to real-time data, clear communication channels, and collaborative tools needed to assess situations, coordinate responses, and mitigate risks efficiently. Build a resilient and responsive command center with our expert integration services.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Components of Our Crisis Room Solutions:</h3>

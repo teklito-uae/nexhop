@@ -1,5 +1,5 @@
 <?php
-$title = "Enterprise Cyber Security Solutions in Dubai - Flash Fix";
+$title = "Enterprise Cyber Security Solutions in Dubai - Nexhop";
 $description = "Protect your business with next-generation cyber security solutions in Dubai. Firewalls, endpoint protection, SIEM/SOC, and 24/7 threat monitoring.";
 $keywords = "cyber security dubai, network security UAE, firewall solutions dubai, ransomware protection UAE, managed security services dubai";
 include '../includes/header.php';
@@ -137,7 +137,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

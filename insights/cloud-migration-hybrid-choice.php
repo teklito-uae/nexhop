@@ -1,7 +1,7 @@
 <?php
-$title = "Cloud Migration: Why Hybrid is the Best Choice | Flash Fix Insights";
+$title = "Cloud Migration: Why Hybrid is the Best Choice | Nexhop Insights";
 $description = "A deep dive into why moving your core infrastructure to a hybrid cloud environment maximizes flexibility and security for modern enterprises.";
-$keywords = "Cloud Migration, Hybrid Cloud, Enterprise Cloud, Azure, AWS, Flash Fix";
+$keywords = "Cloud Migration, Hybrid Cloud, Enterprise Cloud, Azure, AWS, Nexhop";
 include '../includes/header.php';
 include '../includes/navbar.php';
 ?>
@@ -103,7 +103,7 @@ include '../includes/navbar.php';
             </p>
 
             <p>
-                <strong>Flash Fix Technologies</strong> offers end-to-end migration execution. We handle the assessment,
+                <strong>Nexhop Computers</strong> offers end-to-end migration execution. We handle the assessment,
                 architecture design, and zero-downtime transition, ensuring your enterprise capitalizes on cloud
                 innovation without sacrificing control.
             </p>

@@ -1,5 +1,5 @@
 <?php
-$title = "Structured Cabling Solutions Dubai - Network & Data Cabling | Flash Fix";
+$title = "Structured Cabling Solutions Dubai - Network & Data Cabling | Nexhop";
 $description = "Expert structured cabling installation and design services in Dubai, UAE. Certified Cat6, Cat6a, and Fiber Optic solutions for high-performance office networks.";
 $keywords = "structured cabling Dubai, network cabling, data cabling, fiber optic cabling, Cat6, Cat6a, network infrastructure, Dubai, UAE";
 include '../includes/header.php';
@@ -147,7 +147,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

@@ -1,5 +1,5 @@
 <?php
-$title = "Advanced CCTV Surveillance Systems Dubai - IP Cameras & Monitoring | Flash Fix";
+$title = "Advanced CCTV Surveillance Systems Dubai - IP Cameras & Monitoring | Nexhop";
 $description = "State-of-the-art CCTV surveillance systems and installation in Dubai, UAE. High-definition cameras, remote monitoring, and smart analytics for premium security.";
 $keywords = "CCTV systems Dubai, surveillance cameras, security cameras, IP cameras, remote monitoring, Hikvision, Dahua, Dubai, UAE";
 include '../includes/header.php';
@@ -150,7 +150,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

@@ -1,5 +1,5 @@
 <?php
-$title = "Next-Gen Firewall (NGFW) Solutions Dubai - Network Security | Flash Fix";
+$title = "Next-Gen Firewall (NGFW) Solutions Dubai - Network Security | Nexhop";
 $description = "Advanced Next-Generation Firewall (NGFW) solutions in Dubai, UAE. Protect your network with deep packet inspection, intrusion prevention, and application control.";
 $keywords = "Next-Gen Firewall Dubai, NGFW, network security, intrusion prevention, application control, Fortinet FortiGate, Palo Alto Networks, Cisco Firepower, Dubai, UAE";
 include '../includes/header.php';
@@ -147,7 +147,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

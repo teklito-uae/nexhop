@@ -1,5 +1,5 @@
 <?php
-$title = "Server & Storage Solutions in Dubai & UAE - SAN, NAS, Backup | Flash Fix";
+$title = "Server & Storage Solutions in Dubai & UAE - SAN, NAS, Backup | Nexhop";
 $description = "High-performance enterprise server and storage solutions in Dubai. Specialized in SAN/NAS implementation, data backup, and cloud storage integration for UAE businesses.";
 $keywords = "Server storage solutions Dubai, SAN NAS installation UAE, data backup services Dubai, enterprise storage UAE, cloud storage integration Dubai, server storage maintenance";
 include '../includes/header.php';
@@ -148,7 +148,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

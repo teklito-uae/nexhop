@@ -1,6 +1,6 @@
 <?php
 /**
- * FlashFix Support - Admin Ticket Detail
+ * Nexhop Support - Admin Ticket Detail
  */
 require_once __DIR__ . '/../config.php';
 requireAdminLogin();

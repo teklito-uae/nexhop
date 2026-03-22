@@ -1,6 +1,6 @@
 <?php
 /**
- * FlashFix Support - Magic Link Verification
+ * Nexhop Support - Magic Link Verification
  */
 require_once __DIR__ . '/config.php';
 

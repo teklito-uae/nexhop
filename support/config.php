@@ -1,6 +1,6 @@
 <?php
 /**
- * FlashFix Support Ticket Platform - Configuration
+ * Nexhop Support Ticket Platform - Configuration
  * 
  * UPDATE THESE VALUES BEFORE DEPLOYING:
  * 1. Database credentials (DB_HOST, DB_NAME, DB_USER, DB_PASS)
@@ -18,14 +18,14 @@ define('DB_PASS', 'F$drQSBL8t=');
 define('DB_CHARSET', 'utf8mb4');
 
 // ── Site Settings ─────────────────────────────────
-define('SITE_NAME', 'Flash Fix Support');
+define('SITE_NAME', 'Nexhop Support');
 // For localhost: 'http://localhost/flashfix/support'
-// For production: 'https://support.flashfixtechnologies.com'
-define('SITE_URL', 'https://support.flashfixtechnologies.com');
-define('MAIN_SITE_URL', 'https://flashfixtechnologies.com');
-define('ADMIN_EMAIL', 'support@flashfixtechnologies.com');
-define('COMPANY_NAME', 'Flash Fix Technologies');
-define('COMPANY_PHONE', '+971 4 XXX XXXX');
+// For production: 'https://support.nexhop.ae'
+define('SITE_URL', 'https://support.nexhop.ae');
+define('MAIN_SITE_URL', 'https://nexhop.ae');
+define('ADMIN_EMAIL', 'support@nexhop.ae');
+define('COMPANY_NAME', 'Nexhop Computers');
+define('COMPANY_PHONE', '+971 55 902 6521');
 
 // ── Base Path (auto-detect) ──────────────────────
 // Handles both localhost/subdirectory and production root

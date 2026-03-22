@@ -1,5 +1,5 @@
 <?php
-$title = "VPN Solutions - Flash Fix Technologies";
+$title = "VPN Solutions - Nexhop Computers";
 $description = "Secure VPN solutions for businesses in Dubai, UAE. Establish secure remote access and site-to-site connections to protect your data and enable flexible work environments.";
 $keywords = "VPN solutions Dubai, remote access VPN, site-to-site VPN, network security, secure connectivity, Fortinet, Cisco, Palo Alto Networks, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Protect Your Data with Encrypted Network Connections</h2>
-                <p class="text-gray-700 mb-4">In an era of remote work and distributed teams, securing network connections is more critical than ever. Flash Fix Technologies provides robust VPN (Virtual Private Network) Solutions in Dubai, UAE, enabling secure remote access for your employees and establishing encrypted site-to-site connections between your offices. Our VPN solutions ensure that your data remains confidential and protected, even when transmitted over public networks.</p>
+                <p class="text-gray-700 mb-4">In an era of remote work and distributed teams, securing network connections is more critical than ever. Nexhop Computers provides robust VPN (Virtual Private Network) Solutions in Dubai, UAE, enabling secure remote access for your employees and establishing encrypted site-to-site connections between your offices. Our VPN solutions ensure that your data remains confidential and protected, even when transmitted over public networks.</p>
                 <p class="text-gray-700 mb-6">We design and implement VPN infrastructures that offer strong encryption, reliable performance, and seamless integration with your existing network. Empower your workforce with secure access to corporate resources from anywhere, while safeguarding your sensitive information.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits of Our VPN Solutions:</h3>

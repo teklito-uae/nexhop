@@ -1,7 +1,7 @@
 <?php
-$title = "5 Signs Your Business Needs a Professional IT AMC Partner | Flash Fix Insights";
+$title = "5 Signs Your Business Needs a Professional IT AMC Partner | Nexhop Insights";
 $description = "Stop relying on break-fix methods. Here are the 5 critical warning signs that your infrastructure is bleeding money without a dedicated IT AMC.";
-$keywords = "IT AMC, Annual Maintenance Contract, IT Support Dubai, Managed IT Services, Flash Fix";
+$keywords = "IT AMC, Annual Maintenance Contract, IT Support Dubai, Managed IT Services, Nexhop";
 include '../includes/header.php';
 include '../includes/navbar.php';
 ?>
@@ -115,9 +115,9 @@ include '../includes/navbar.php';
             </p>
 
             <h3 class="text-xl md:text-2xl font-extrabold text-gray-900 dark:text-white mt-8 mb-4 tracking-tight">The
-                Flash Fix Advantage</h3>
+                Nexhop Advantage</h3>
             <p>
-                At <strong>Flash Fix Technologies</strong>, our enterprise IT AMC packages are SLA-backed, ensuring 24/7
+                At <strong>Nexhop Computers</strong>, our enterprise IT AMC packages are SLA-backed, ensuring 24/7
                 proactive monitoring and guaranteed maximum response times. We don't just fix problems; we architect an
                 environment where problems rarely occur.
             </p>

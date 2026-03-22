@@ -1,5 +1,5 @@
 <?php
-$title = "Enterprise Mobility Solutions - Flash Fix Technologies";
+$title = "Enterprise Mobility Solutions - Nexhop Computers";
 $description = "Comprehensive enterprise mobility solutions in Dubai, UAE. Securely enable your workforce to be productive from anywhere, on any device, with robust mobile device and application management.";
 $keywords = "enterprise mobility Dubai, mobile device management, MDM, mobile application management, MAM, unified endpoint management, UEM, BYOD, secure mobile access, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Securely Enable Your Mobile Workforce</h2>
-                <p class="text-gray-700 mb-4">The modern workforce is increasingly mobile, relying on smartphones, tablets, and laptops to access corporate resources from anywhere. Flash Fix Technologies offers comprehensive Enterprise Mobility Solutions in Dubai, UAE, designed to securely enable your employees to be productive on any device, while protecting sensitive company data and ensuring compliance.</p>
+                <p class="text-gray-700 mb-4">The modern workforce is increasingly mobile, relying on smartphones, tablets, and laptops to access corporate resources from anywhere. Nexhop Computers offers comprehensive Enterprise Mobility Solutions in Dubai, UAE, designed to securely enable your employees to be productive on any device, while protecting sensitive company data and ensuring compliance.</p>
                 <p class="text-gray-700 mb-6">Our solutions provide centralized management, robust security, and seamless access to applications and data, balancing user flexibility with corporate security requirements. Empower your mobile workforce without compromising on control or data protection.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits of Our Enterprise Mobility Solutions:</h3>

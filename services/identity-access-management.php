@@ -1,5 +1,5 @@
 <?php
-$title = "Identity and Access Management (IAM) - Flash Fix Technologies";
+$title = "Identity and Access Management (IAM) - Nexhop Computers";
 $description = "Robust Identity and Access Management (IAM) solutions in Dubai, UAE. Securely manage user identities and control access to resources across your enterprise.";
 $keywords = "IAM Dubai, identity management, access management, single sign-on, SSO, multi-factor authentication, MFA, user provisioning, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Centralized Control Over Who Accesses What, When, and How</h2>
-                <p class="text-gray-700 mb-4">In today's complex IT environments, managing user identities and controlling access to critical resources is a significant security challenge. Flash Fix Technologies offers comprehensive Identity and Access Management (IAM) Solutions in Dubai, UAE, designed to securely manage digital identities and control user access across your enterprise, enhancing security and streamlining operations.</p>
+                <p class="text-gray-700 mb-4">In today's complex IT environments, managing user identities and controlling access to critical resources is a significant security challenge. Nexhop Computers offers comprehensive Identity and Access Management (IAM) Solutions in Dubai, UAE, designed to securely manage digital identities and control user access across your enterprise, enhancing security and streamlining operations.</p>
                 <p class="text-gray-700 mb-6">Our IAM solutions ensure that only authorized individuals have access to the right resources at the right time, reducing the risk of data breaches, improving compliance, and enhancing user experience through simplified access. We help you implement a robust IAM framework that supports your business growth and security objectives.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits of Our IAM Solutions:</h3>

@@ -1,5 +1,5 @@
 <?php
-$title = "New Office IT Setup in Dubai & UAE - Infrastructure & Cabling | Flash Fix";
+$title = "New Office IT Setup in Dubai & UAE - Infrastructure & Cabling | Nexhop";
 $description = "Complete new office IT infrastructure setup in Dubai. From structured cabling and server room design to workstation deployment and WiFi planning. Expert UAE office setup.";
 $keywords = "New office IT setup Dubai, office IT infrastructure UAE, structured cabling Dubai, server room setup UAE, office network installation Dubai, IT relocation Sharjah";
 include '../includes/header.php';
@@ -145,12 +145,12 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">
                 <div class="lg:w-1/2">
-                    <span class="text-[10px] tracking-widest uppercase font-bold text-blue-600 mb-2 block">FlashFix
+                    <span class="text-[10px] tracking-widest uppercase font-bold text-blue-600 mb-2 block">Nexhop
                         Delivery</span>
                     <h2
                         class="text-2xl sm:text-3xl font-extrabold text-gray-900 dark:text-white leading-tight mb-4 font-[Poppins]">

@@ -1,5 +1,5 @@
 <?php
-$title = "Meeting Room Solutions - Flash Fix Technologies";
+$title = "Meeting Room Solutions - Nexhop Computers";
 $description = "Integrated meeting room solutions in Dubai, UAE. Enhance collaboration and productivity with advanced audio-video, conferencing, and presentation systems for modern workspaces.";
 $keywords = "meeting room solutions Dubai, conference room AV, video conferencing, presentation systems, smart meeting rooms, Crestron, Poly, Cisco, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Seamless Audio-Video Integration for Modern Workspaces</h2>
-                <p class="text-gray-700 mb-4">Effective meetings are crucial for business success, but often hindered by complex technology and poor audio-video quality. Flash Fix Technologies provides integrated Meeting Room Solutions in Dubai, UAE, designed to enhance collaboration, streamline presentations, and ensure crystal-clear communication. We transform your meeting spaces into smart, intuitive, and highly productive environments.</p>
+                <p class="text-gray-700 mb-4">Effective meetings are crucial for business success, but often hindered by complex technology and poor audio-video quality. Nexhop Computers provides integrated Meeting Room Solutions in Dubai, UAE, designed to enhance collaboration, streamline presentations, and ensure crystal-clear communication. We transform your meeting spaces into smart, intuitive, and highly productive environments.</p>
                 <p class="text-gray-700 mb-6">From small huddle rooms to large boardrooms, our expert team designs and installs customized solutions that include advanced video conferencing, interactive displays, intuitive control systems, and superior audio quality. Empower your teams to connect, share, and innovate effortlessly.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Our Meeting Room Solutions Include:</h3>

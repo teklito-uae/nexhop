@@ -1,5 +1,5 @@
 <?php
-$title = "Access Control Systems Dubai - Biometric & Door Entry | Flash Fix";
+$title = "Access Control Systems Dubai - Biometric & Door Entry | Nexhop";
 $description = "Secure access control systems for businesses in Dubai, UAE. Manage and monitor entry to your premises with card readers, biometric scanners, and smart locks.";
 $keywords = "access control Dubai, door access control, biometric access, card reader access, smart locks, security systems, Dubai, UAE";
 include '../includes/header.php';
@@ -149,7 +149,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

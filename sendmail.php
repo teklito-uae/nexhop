@@ -1,6 +1,6 @@
 <?php
 /**
- * Flash Fix Technologies - Contact Form Processing
+ * Nexhop Computers - Contact Form Processing
  * Handles form submission and email sending with validation and security
  */
 
@@ -13,9 +13,9 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 
 // Configuration
-$to_email = 'info@flashfix.ae'; // Change this to your actual email
-$subject_prefix = 'Flash Fix Technologies - Contact Form';
-$allowed_domains = ['flashfix.ae', 'localhost']; // Add your domain
+$to_email = 'sales@nexhop.ae'; // Change this to your actual email
+$subject_prefix = 'Nexhop Computers - Contact Form';
+$allowed_domains = ['nexhop.ae', 'localhost']; // Add your domain
 
 // Response array
 $response = ['success' => false, 'message' => ''];
@@ -106,7 +106,7 @@ try {
     // Prepare email content
     $subject = $subject_prefix . ' - ' . $service;
     
-    $body = "New contact form submission from Flash Fix Technologies website:\n\n";
+    $body = "New contact form submission from Nexhop Computers website:\n\n";
     $body .= "Name: {$name}\n";
     $body .= "Company: {$company}\n";
     $body .= "Email: {$email}\n";
@@ -135,7 +135,7 @@ try {
     <body>
         <div class='container'>
             <div class='header'>
-                <h2>Flash Fix Technologies - Contact Form</h2>
+                <h2>Nexhop Computers - Contact Form</h2>
             </div>
             <div class='content'>
                 <div class='field'>
@@ -231,7 +231,7 @@ function get_client_ip() {
 function send_confirmation_email($user_email, $user_name) {
     global $to_email;
     
-    $subject = 'Thank you for contacting Flash Fix Technologies';
+    $subject = 'Thank you for contacting Nexhop Computers';
     
     $html_body = "
     <html>
@@ -247,24 +247,24 @@ function send_confirmation_email($user_email, $user_name) {
     <body>
         <div class='container'>
             <div class='header'>
-                <h2>Flash Fix Technologies</h2>
+                <h2>Nexhop Computers</h2>
             </div>
             <div class='content'>
                 <h3>Dear " . htmlspecialchars($user_name) . ",</h3>
-                <p>Thank you for contacting Flash Fix Technologies. We have received your message and will get back to you within 24 hours.</p>
+                <p>Thank you for contacting Nexhop Computers. We have received your message and will get back to you within 24 hours.</p>
                 <p>Our team of IT experts is ready to assist you with your technology requirements.</p>
-                <p>If your inquiry is urgent, please don't hesitate to call us at +971 4 XXX XXXX.</p>
-                <p>Best regards,<br>The Flash Fix Technologies Team</p>
+                <p>If your inquiry is urgent, please don't hesitate to call us at +971 55 902 6521.</p>
+                <p>Best regards,<br>The Nexhop Computers Team</p>
             </div>
             <div class='footer'>
                 <p>Part of Hiba Computer Group | Dubai, UAE</p>
-                <p>Email: info@flashfix.ae | Phone: +971 4 XXX XXXX</p>
+                <p>Email: sales@nexhop.ae | Phone: +971 55 902 6521</p>
             </div>
         </div>
     </body>
     </html>";
     
-    $headers = "From: Flash Fix Technologies <{$to_email}>\r\n";
+    $headers = "From: Nexhop Computers <{$to_email}>\r\n";
     $headers .= "Reply-To: {$to_email}\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";

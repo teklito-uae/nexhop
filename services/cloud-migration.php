@@ -1,5 +1,5 @@
 <?php
-$title = "Cloud Migration Services Dubai - Seamless Cloud Transition | Flash Fix";
+$title = "Cloud Migration Services Dubai - Seamless Cloud Transition | Nexhop";
 $description = "Expert cloud migration services in Dubai, UAE. Seamlessly move your data and applications to the cloud with minimal disruption and maximum efficiency.";
 $keywords = "cloud migration, cloud computing, data migration, application migration, Azure migration, AWS migration, hybrid cloud, Dubai, UAE";
 include '../includes/header.php';
@@ -149,7 +149,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">
@@ -492,7 +492,7 @@ include '../includes/navbar.php';
                     </button>
                     <div class="max-h-0 overflow-hidden transition-all duration-300 bg-gray-50/50 dark:bg-base/50">
                         <div class="p-4 pt-0 text-[11px] text-gray-500 dark:text-slate-400 leading-relaxed">
-                            Yes. Every FlashFix migration has a strict "Rollback Plan." We never decommission your
+                            Yes. Every Nexhop migration has a strict "Rollback Plan." We never decommission your
                             legacy systems until the cloud environment is verified stable for at least 7-14 days
                             post-cutover.
                         </div>

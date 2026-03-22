@@ -1,6 +1,6 @@
 <?php
 /**
- * FlashFix Support - Admin Login
+ * Nexhop Support - Admin Login
  */
 require_once __DIR__ . '/../config.php';
 
@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <form method="POST" action="">
             <div class="form-group">
                 <label class="form-label">Email or Username</label>
-                <input type="text" name="email" class="form-control" placeholder="admin@flashfix.ae" required autofocus
+                <input type="text" name="email" class="form-control" placeholder="admin@nexhop.ae" required autofocus
                        value="<?php echo isset($_POST['email']) ? sanitize($_POST['email']) : ''; ?>">
             </div>
             <div class="form-group">

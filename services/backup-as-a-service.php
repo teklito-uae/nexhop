@@ -1,5 +1,5 @@
 <?php
-$title = "Backup as a Service (BaaS) Dubai - Secure Cloud Backup | Flash Fix";
+$title = "Backup as a Service (BaaS) Dubai - Secure Cloud Backup | Nexhop";
 $description = "Flexible and scalable Backup as a Service (BaaS) solutions in Dubai, UAE. Securely backup your data to the cloud with automated processes and easy recovery options.";
 $keywords = "BaaS Dubai, Backup as a Service, cloud backup, data backup, secure backup, automated backup, data protection, Dubai, UAE";
 include '../includes/header.php';
@@ -147,7 +147,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

@@ -1,5 +1,5 @@
 <?php
-$title = "Proxy Services - Flash Fix Technologies";
+$title = "Proxy Services - Nexhop Computers";
 $description = "Secure and managed proxy services for businesses in Dubai, UAE. Enhance network security, control internet access, and optimize bandwidth with our proxy solutions.";
 $keywords = "proxy services Dubai, web proxy, internet filtering, content filtering, network security, bandwidth optimization, web security gateway, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Managed Internet Access for a Secure and Productive Environment</h2>
-                <p class="text-gray-700 mb-4">In today's digital workplace, managing internet access is crucial for maintaining security, productivity, and compliance. Flash Fix Technologies offers comprehensive Proxy Services for businesses in Dubai, UAE, providing a robust solution to filter web content, protect against online threats, and optimize network bandwidth.</p>
+                <p class="text-gray-700 mb-4">In today's digital workplace, managing internet access is crucial for maintaining security, productivity, and compliance. Nexhop Computers offers comprehensive Proxy Services for businesses in Dubai, UAE, providing a robust solution to filter web content, protect against online threats, and optimize network bandwidth.</p>
                 <p class="text-gray-700 mb-6">Our managed proxy solutions allow you to enforce internet usage policies, block access to malicious or inappropriate websites, and gain visibility into web traffic. This not only enhances your network security but also improves employee productivity by minimizing distractions and preventing access to non-work-related content.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits of Our Proxy Services:</h3>

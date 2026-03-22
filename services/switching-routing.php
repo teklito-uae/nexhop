@@ -1,5 +1,5 @@
 <?php
-$title = "Switching & Routing Solutions - Flash Fix Technologies";
+$title = "Switching & Routing Solutions - Nexhop Computers";
 $description = "Advanced switching and routing solutions for robust and efficient networks in Dubai, UAE. Optimize your network performance, security, and scalability.";
 $keywords = "switching solutions Dubai, routing solutions, network switches, network routers, Cisco, Juniper, HP Aruba, network optimization, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Optimize Your Network for Speed, Security, and Reliability</h2>
-                <p class="text-gray-700 mb-4">The core of any modern IT infrastructure lies in its switching and routing capabilities. Flash Fix Technologies provides advanced Switching & Routing Solutions in Dubai, UAE, designed to optimize your network's performance, enhance security, and ensure seamless connectivity for all your business operations.</p>
+                <p class="text-gray-700 mb-4">The core of any modern IT infrastructure lies in its switching and routing capabilities. Nexhop Computers provides advanced Switching & Routing Solutions in Dubai, UAE, designed to optimize your network's performance, enhance security, and ensure seamless connectivity for all your business operations.</p>
                 <p class="text-gray-700 mb-6">We design, implement, and manage robust network architectures that support high-speed data transfer, efficient traffic management, and secure access. Whether you need to upgrade your existing network or build a new one from scratch, our experts deliver scalable and reliable solutions tailored to your specific business needs.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Our Switching & Routing Services Include:</h3>

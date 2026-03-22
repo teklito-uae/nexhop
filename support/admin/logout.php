@@ -1,6 +1,6 @@
 <?php
 /**
- * FlashFix Support - Admin Logout
+ * Nexhop Support - Admin Logout
  */
 require_once __DIR__ . '/../config.php';
 

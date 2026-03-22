@@ -1,5 +1,5 @@
 <?php
-$title = "IT AMC Services in Dubai & UAE - Proactive Maintenance | Flash Fix";
+$title = "IT AMC Services in Dubai & UAE - Proactive Maintenance | Nexhop";
 $description = "Annual Maintenance Contract (AMC) for IT services in Dubai. Proactive server, network, and hardware maintenance to prevent system downtime. Reliable IT support across UAE.";
 $keywords = "IT AMC Dubai, IT maintenance contract UAE, IT support services Dubai, server maintenance Dubai, network support UAE, IT outsourcing Dubai";
 include '../includes/header.php';
@@ -143,7 +143,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">
@@ -452,7 +452,7 @@ include '../includes/navbar.php';
                     </button>
                     <div class="max-h-0 overflow-hidden transition-all duration-300 bg-gray-50/50 dark:bg-base/50">
                         <div class="p-4 pt-0 text-[11px] text-gray-500 dark:text-slate-400 leading-relaxed">
-                            FlashFix IT AMC covers everything from proactive server maintenance, network optimization,
+                            Nexhop IT AMC covers everything from proactive server maintenance, network optimization,
                             security patches, and 24/7 monitoring to unlimited remote and on-site support across Dubai
                             and the UAE.
                         </div>

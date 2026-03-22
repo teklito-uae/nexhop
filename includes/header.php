@@ -5,23 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="description"
-        content="<?php echo isset($pageDescription) ? $pageDescription : 'Flash Fix Technologies - Professional IT infrastructure, networking, and hardware solutions provider in Dubai, UAE'; ?>">
+        content="<?php echo isset($pageDescription) ? $pageDescription : 'Nexhop Computers - UAE-based IT and networking solutions provider specializing in enterprise technology infrastructure.'; ?>">
     <meta name="keywords"
-        content="IT solutions Dubai, networking experts, IT infrastructure, Flash Fix Technologies, Hiba Computer Group, IT services UAE, server installation, structured cabling, CCTV systems, IT support">
-    <meta name="author" content="Flash Fix Technologies">
+        content="IT solutions Dubai, networking experts, IT infrastructure, Nexhop Computers, enterprise networking, IT services UAE, server installation, structured cabling, CCTV systems, IT support">
+    <meta name="author" content="Nexhop Computers">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph -->
     <meta property="og:title"
-        content="<?php echo isset($pageTitle) ? $pageTitle : 'Flash Fix Technologies | IT Solutions & Networking Experts Dubai'; ?>">
+        content="<?php echo isset($pageTitle) ? $pageTitle : 'Nexhop Computers | IT Solutions & Networking Experts Dubai'; ?>">
     <meta property="og:description"
-        content="<?php echo isset($pageDescription) ? $pageDescription : 'Professional IT infrastructure, networking, and hardware solutions provider in Dubai.'; ?>">
+        content="<?php echo isset($pageDescription) ? $pageDescription : 'UAE-based IT and networking solutions provider specializing in enterprise technology infrastructure.'; ?>">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
-    <meta property="og:site_name" content="Flash Fix Technologies">
+    <meta property="og:site_name" content="Nexhop Computers">
 
     <title>
-        <?php echo isset($pageTitle) ? $pageTitle : 'Flash Fix Technologies | IT Solutions & Networking Experts Dubai'; ?>
+        <?php echo isset($pageTitle) ? $pageTitle : 'Nexhop Computers | IT & Networking Solutions UAE'; ?>
     </title>
 
     <link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
@@ -57,35 +57,35 @@
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "Flash Fix Technologies",
-        "description": "Professional IT infrastructure, networking, and hardware solutions provider in Dubai, UAE",
-        "url": "https://flashfix.ae",
-        "telephone": "+9714XXXXXXX",
-        "email": "info@flashfix.ae",
-        "address": {"@type":"PostalAddress","addressLocality":"Dubai","addressCountry":"AE","addressRegion":"Dubai"},
-        "geo": {"@type":"GeoCoordinates","latitude":25.2048,"longitude":55.2708},
+        "name": "Nexhop Computers",
+        "description": "UAE-based IT and networking solutions provider specializing in enterprise technology infrastructure.",
+        "url": "https://nexhop.ae",
+        "telephone": "+971559026521",
+        "email": "sales@nexhop.ae",
+        "address": {"@type":"PostalAddress","addressLocality":"Dubai","addressCountry":"AE","addressRegion":"Dubai", "streetAddress": "#03, Sulthan Building, Computer Market, Burdubai - Al Souq Al Kabeer - Al Fahidi"},
+        "geo": {"@type":"GeoCoordinates","latitude":25.2611,"longitude":55.2903},
         "openingHoursSpecification": {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday"],"opens":"09:00","closes":"18:00"},
-        "sameAs": ["https://www.linkedin.com/company/flash-fix-technologies"]
+        "sameAs": ["https://www.linkedin.com/company/nexhop"]
     }
     </script>
 
     <!-- SEO -->
-    <meta name="copyright" content="Flash Fix Technologies">
+    <meta name="copyright" content="Nexhop Computers">
     <meta name="distribution" content="global">
     <meta name="revisit-after" content="7 days">
     <meta name="language" content="EN">
     <meta name="geo.region" content="AE-DU">
     <meta name="geo.placename" content="Dubai">
-    <meta name="geo.position" content="25.2048;55.2708">
-    <meta name="ICBM" content="25.2048, 55.2708">
+    <meta name="geo.position" content="25.2611;55.2903">
+    <meta name="ICBM" content="25.2611, 55.2903">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title"
-        content="<?php echo isset($pageTitle) ? $pageTitle : 'Flash Fix Technologies | IT Solutions & Networking Experts Dubai'; ?>">
+        content="<?php echo isset($pageTitle) ? $pageTitle : 'Nexhop Computers | IT & Networking Solutions UAE'; ?>">
     <meta name="twitter:description"
-        content="<?php echo isset($pageDescription) ? $pageDescription : 'Professional IT infrastructure, networking, and hardware solutions provider in Dubai.'; ?>">
-    <link rel="canonical" href="<?php echo 'https://flashfix.ae' . $_SERVER['REQUEST_URI']; ?>">
-    <link rel="alternate" hreflang="en-ae" href="https://flashfix.ae<?php echo $_SERVER['REQUEST_URI']; ?>">
-    <link rel="alternate" hreflang="x-default" href="https://flashfix.ae<?php echo $_SERVER['REQUEST_URI']; ?>">
+        content="<?php echo isset($pageDescription) ? $pageDescription : 'UAE-based IT and networking solutions provider specializing in enterprise technology infrastructure.'; ?>">
+    <link rel="canonical" href="<?php echo 'https://nexhop.ae' . $_SERVER['REQUEST_URI']; ?>">
+    <link rel="alternate" hreflang="en-ae" href="https://nexhop.ae<?php echo $_SERVER['REQUEST_URI']; ?>">
+    <link rel="alternate" hreflang="x-default" href="https://nexhop.ae<?php echo $_SERVER['REQUEST_URI']; ?>">
 </head>
 
 <body

@@ -1,6 +1,6 @@
 <?php
 /**
- * FlashFix Support - Create New Ticket
+ * Nexhop Support - Create New Ticket
  */
 require_once __DIR__ . '/config.php';
 requireCustomerLogin();

@@ -1,5 +1,5 @@
 <?php
-$title = "Microsoft Business Plans - Flash Fix Technologies";
+$title = "Microsoft Business Plans - Nexhop Computers";
 $description = "Microsoft 365 Business Plans and Azure solutions for businesses in Dubai, UAE. Enhance productivity, collaboration, and cloud capabilities with Microsoft's leading services.";
 $keywords = "Microsoft 365 Business, Azure Cloud, Microsoft Teams, Exchange Online, SharePoint, cloud solutions, productivity tools, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Empower Your Business with Microsoft's Cloud Ecosystem</h2>
-                <p class="text-gray-700 mb-4">Microsoft offers a powerful suite of cloud-based services designed to boost productivity, enhance collaboration, and secure your business operations. Flash Fix Technologies provides comprehensive solutions for Microsoft Business Plans, including Microsoft 365 and Azure Cloud services, for organizations in Dubai, UAE. We help you select, implement, and manage the right Microsoft solutions to meet your specific business needs.</p>
+                <p class="text-gray-700 mb-4">Microsoft offers a powerful suite of cloud-based services designed to boost productivity, enhance collaboration, and secure your business operations. Nexhop Computers provides comprehensive solutions for Microsoft Business Plans, including Microsoft 365 and Azure Cloud services, for organizations in Dubai, UAE. We help you select, implement, and manage the right Microsoft solutions to meet your specific business needs.</p>
                 <p class="text-gray-700 mb-6">From seamless email and document management to advanced cloud infrastructure and security, our expertise ensures you leverage the full potential of Microsoft's ecosystem. Transform your workplace with reliable, scalable, and secure Microsoft cloud services.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Our Microsoft Business Solutions Include:</h3>

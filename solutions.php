@@ -1,5 +1,5 @@
 <?php
-$title = "IT Solutions - Flash Fix Technologies";
+$title = "IT Solutions - Nexhop Computers";
 $description = "Comprehensive IT solutions for businesses, including infrastructure, networking, security, cloud, and support. Discover our enterprise and SMB offerings.";
 $keywords = "IT solutions, enterprise IT, SMB IT, data center, cloud solutions, IT security, network infrastructure, Dubai, UAE";
 include 'includes/header.php';

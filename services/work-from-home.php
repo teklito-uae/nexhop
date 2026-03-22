@@ -1,5 +1,5 @@
 <?php
-$title = "Work From Home Solutions - Flash Fix Technologies";
+$title = "Work From Home Solutions - Nexhop Computers";
 $description = "Comprehensive Work From Home (WFH) solutions in Dubai, UAE. Enable secure, productive, and seamless remote work environments for your employees.";
 $keywords = "Work From Home solutions Dubai, WFH setup, remote work infrastructure, secure remote access, VPN, cloud collaboration, unified communications, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Seamless Transition to a Flexible Work Model</h2>
-                <p class="text-gray-700 mb-4">The shift to remote work has become a permanent fixture for many businesses. Flash Fix Technologies offers comprehensive Work From Home (WFH) Solutions in Dubai, UAE, designed to provide your employees with secure, reliable, and efficient access to corporate resources, ensuring productivity and collaboration regardless of their physical location.</p>
+                <p class="text-gray-700 mb-4">The shift to remote work has become a permanent fixture for many businesses. Nexhop Computers offers comprehensive Work From Home (WFH) Solutions in Dubai, UAE, designed to provide your employees with secure, reliable, and efficient access to corporate resources, ensuring productivity and collaboration regardless of their physical location.</p>
                 <p class="text-gray-700 mb-6">We help you establish a robust remote work infrastructure, from secure network access and cloud-based collaboration tools to endpoint security and remote support. Empower your team to work effectively from home while maintaining the highest standards of security and operational efficiency.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Our Work From Home Solutions Include:</h3>

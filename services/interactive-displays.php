@@ -1,5 +1,5 @@
 <?php
-$title = "Interactive Displays - Flash Fix Technologies";
+$title = "Interactive Displays - Nexhop Computers";
 $description = "Advanced interactive displays for education and business in Dubai, UAE. Enhance engagement and collaboration with touch-enabled screens, interactive whiteboards, and digital signage.";
 $keywords = "interactive displays Dubai, interactive whiteboards, touch screens, smart boards, education technology, corporate displays, Samsung Flip, Promethean, ViewSonic, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Transform Presentations and Collaboration into Dynamic Experiences</h2>
-                <p class="text-gray-700 mb-4">Interactive Displays are revolutionizing how we learn, present, and collaborate in both educational and corporate environments. Flash Fix Technologies provides cutting-edge Interactive Display solutions in Dubai, UAE, offering a range of touch-enabled screens, interactive whiteboards, and digital signage that foster engagement, creativity, and productivity.</p>
+                <p class="text-gray-700 mb-4">Interactive Displays are revolutionizing how we learn, present, and collaborate in both educational and corporate environments. Nexhop Computers provides cutting-edge Interactive Display solutions in Dubai, UAE, offering a range of touch-enabled screens, interactive whiteboards, and digital signage that foster engagement, creativity, and productivity.</p>
                 <p class="text-gray-700 mb-6">Whether for dynamic classroom lessons, engaging boardroom presentations, or interactive public information, our solutions provide intuitive user experiences, seamless content sharing, and robust performance. Elevate your communication and collaboration with our state-of-the-art interactive display technology.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits of Our Interactive Displays:</h3>

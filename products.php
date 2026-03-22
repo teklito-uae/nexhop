@@ -1,5 +1,5 @@
 <?php
-$title = "IT Products - Flash Fix Technologies";
+$title = "IT Products - Nexhop Computers";
 $description = "Discover enterprise-grade IT products, including business laptops, servers, and networking equipment from leading brands like Lenovo, Dell, HP, Cisco, and Fortinet.";
 $keywords = "IT products, business laptops, servers, networking equipment, Lenovo, Dell, HP, Cisco, Fortinet, Dubai, UAE";
 include 'includes/header.php';

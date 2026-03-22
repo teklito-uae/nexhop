@@ -1,5 +1,5 @@
 <?php
-$title = "Device Encryption Solutions - Flash Fix Technologies";
+$title = "Device Encryption Solutions - Nexhop Computers";
 $description = "Robust device encryption solutions in Dubai, UAE. Protect sensitive data on laptops, desktops, and mobile devices with full disk encryption and secure data management.";
 $keywords = "device encryption Dubai, full disk encryption, FDE, data at rest encryption, data protection, BitLocker, FileVault, Sophos Safeguard, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Protect Sensitive Information from Unauthorized Access</h2>
-                <p class="text-gray-700 mb-4">Laptops, desktops, and mobile devices often store sensitive corporate data, making them vulnerable targets for theft or loss. Flash Fix Technologies provides comprehensive Device Encryption Solutions in Dubai, UAE, to protect your data at rest, ensuring that even if a device falls into the wrong hands, your information remains secure and inaccessible.</p>
+                <p class="text-gray-700 mb-4">Laptops, desktops, and mobile devices often store sensitive corporate data, making them vulnerable targets for theft or loss. Nexhop Computers provides comprehensive Device Encryption Solutions in Dubai, UAE, to protect your data at rest, ensuring that even if a device falls into the wrong hands, your information remains secure and inaccessible.</p>
                 <p class="text-gray-700 mb-6">Our solutions implement full disk encryption (FDE) and other advanced encryption techniques, safeguarding your intellectual property, customer data, and confidential business records. Comply with data protection regulations and enhance your overall security posture with our reliable device encryption services.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits of Our Device Encryption:</h3>

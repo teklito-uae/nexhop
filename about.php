@@ -1,6 +1,6 @@
 <?php
-$pageTitle = 'About Flash Fix Technologies | IT Solutions Provider Dubai';
-$pageDescription = 'Learn about Flash Fix Technologies, a leading IT service provider in Dubai and part of Hiba Computer Group. Our mission, vision, and expertise in enterprise IT solutions.';
+$pageTitle = 'About Nexhop Computers | IT Solutions Provider Dubai';
+$pageDescription = 'Learn about Nexhop Computers, a leading IT service provider in Dubai and part of Hiba Computer Group. Our mission, vision, and expertise in enterprise IT solutions.';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
@@ -27,7 +27,7 @@ include 'includes/navbar.php';
                         IT</span> in Dubai
                 </h1>
                 <p class="text-sm sm:text-base text-gray-500 dark:text-slate-400 mb-8 leading-relaxed">
-                    Flash Fix Technologies is a specialized division of the Hiba Computer Group, dedicated to delivering
+                    Nexhop Computers is a specialized division of the Hiba Computer Group, dedicated to delivering
                     enterprise-grade infrastructure and bespoke technology solutions since our inception.
                 </p>
                 <div class="flex flex-wrap justify-center gap-4">
@@ -68,9 +68,9 @@ include 'includes/navbar.php';
                             class="text-2xl sm:text-3xl font-extrabold text-gray-900 dark:text-white leading-tight font-[Poppins]">
                             A Specialized Division of Hiba Computer Group</h2>
                         <p class="text-xs sm:text-sm text-gray-500 dark:text-slate-400 leading-relaxed">
-                            Flash Fix Technologies emerged from a need for deeper technical specialization within the
+                            Nexhop Computers emerged from a need for deeper technical specialization within the
                             UAE's rapidly evolving IT landscape. While Hiba Computer Group built a foundation on
-                            hardware supply, Flash Fix was forged to handle the complex engineering and implementation
+                            hardware supply, Nexhop was forged to handle the complex engineering and implementation
                             of enterprise ecosystems.
                         </p>
                         <p class="text-xs sm:text-sm text-gray-500 dark:text-slate-400 leading-relaxed">

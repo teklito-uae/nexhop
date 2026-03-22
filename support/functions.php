@@ -1,6 +1,6 @@
 <?php
 /**
- * FlashFix Support Ticket Platform - Helper Functions
+ * Nexhop Support Ticket Platform - Helper Functions
  */
 // ── URL Helper (prepends BASE_PATH) ───────────────
 function url($path = '') {
@@ -192,7 +192,7 @@ function sendMagicLinkEmail($email, $token) {
         <a href="' . $link . '" style="color:#3B82F6;word-break:break-all;">' . $link . '</a></p>
         <p style="color:#64748B;font-size:12px;margin-top:20px;">If you didn\'t request this, please ignore this email.</p>';
 
-    return sendEmail($email, 'Your FlashFix Support Login Link', emailTemplate('Login Verification', $content));
+    return sendEmail($email, 'Your Nexhop Support Login Link', emailTemplate('Login Verification', $content));
 }
 
 // ── Send Ticket Created Email ─────────────────────

@@ -1,6 +1,6 @@
 <?php
 /**
- * FlashFix Support - Help & Documentation
+ * Nexhop Support - Help & Documentation
  */
 require_once __DIR__ . '/config.php';
 ?>

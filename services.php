@@ -1,5 +1,5 @@
 <?php
-$title = "Services Directory - Flash Fix Technologies";
+$title = "Services Directory - Nexhop Computers";
 $description = "Explore our comprehensive directory of IT services in Dubai, covering Workspace Solutions, Infrastructure, Cyber Security, and Cloud AV solutions.";
 $keywords = "IT services dubai, IT directory, infrastructure services, cybersecurity companies dubai, cloud solutions uae";
 include 'includes/header.php';
@@ -114,7 +114,7 @@ include 'includes/navbar.php';
     <!-- Mascot Character -->
     <div class="absolute bottom-0 left-[5%] md:left-[8%] lg:left-[10%] w-32 md:w-48 lg:w-64 h-auto z-10 hidden md:block opacity-0 animate-fade-in-left pointer-events-none"
         style="animation-delay: 400ms; animation-fill-mode: forwards;">
-        <img src="/assets/images/flash-fix-charactor.png" alt="Flash Fix Character"
+        <img src="/assets/images/flash-fix-charactor.png" alt="Nexhop Character"
             class="w-full h-auto object-contain">
     </div>
 </section>
@@ -337,16 +337,16 @@ include 'includes/navbar.php';
             <div class="swiper-wrapper">
                 <?php
                 $testimonials = [
-                    ["Ahmed Khalid", "CEO, Zenix Logistics", "Flash Fix transformed our connectivity overnight. Professional, fast, and unconditional support. The team's expertise is unmatched in the region."],
+                    ["Ahmed Khalid", "CEO, Zenix Logistics", "Nexhop transformed our connectivity overnight. Professional, fast, and unconditional support. The team's expertise is unmatched in the region."],
                     ["Sarah Bennett", "IT Manager, Nexus Corp", "The automated security audit they deployed was incredibly eye-opening. We patched three critical vulnerabilities. We feel completely secure now."],
-                    ["Rajesh Kumar", "Operations, Al-Futtaim", "A massive server outage brought our commerce system offline. FlashFix resolved the routing issue in an hour. Absolute lifesavers."],
-                    ["James Wilson", "Director, Cloud9 Tech", "Scaling our infrastructure was a nightmare until Flash Fix took over. Zero downtime migrations are their specialty."],
+                    ["Rajesh Kumar", "Operations, Al-Futtaim", "A massive server outage brought our commerce system offline. Nexhop resolved the routing issue in an hour. Absolute lifesavers."],
+                    ["James Wilson", "Director, Cloud9 Tech", "Scaling our infrastructure was a nightmare until Nexhop took over. Zero downtime migrations are their specialty."],
                     ["Fatima Al-Sayed", "Founder, Bloom Media", "The most reliable IT AMC partner in Dubai. Their preventive maintenance saved us from multiple potential crashes."],
                     ["David Chen", "CTO, Fintech Solutions", "Their cybersecurity framework is world-class. We passed our compliance audit with flying colors thanks to their team."],
                     ["Amir Hassan", "Manager, Gulf Trading", "Seamless transition to Microsoft 365. Their training and support made it easy for our team to adapt."],
                     ["Elena Petrova", "Head of IT, Grand Hotel", "The 24/7 monitoring service gives me peace of mind. They always detect and fix issues before we even notice."],
                     ["Marcus Thorne", "Founder, Elite Estates", "Custom networking solutions that actually work. Our multi-site office connectivity is now rock solid."],
-                    ["Laila Mansour", "COO, Tradewinds Co", "Flash Fix delivers on their promises. Their response time for emergency support is genuinely under 60 minutes."]
+                    ["Laila Mansour", "COO, Tradewinds Co", "Nexhop delivers on their promises. Their response time for emergency support is genuinely under 60 minutes."]
                 ];
 
                 foreach ($testimonials as $i => $t) {

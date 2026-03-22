@@ -1,5 +1,5 @@
 <?php
-$title = "Managed WiFi Solutions Dubai - Business & Enterprise Wireless | Flash Fix";
+$title = "Managed WiFi Solutions Dubai - Business & Enterprise Wireless | Nexhop";
 $description = "Professional Managed WiFi solutions for businesses in Dubai, UAE. Secure, reliable, and high-performance wireless networks for offices, hotels, and public spaces.";
 $keywords = "managed WiFi Dubai, business WiFi, wireless network solutions, enterprise WiFi, guest WiFi, Ubiquiti, Cisco Meraki, Aruba, Dubai, UAE";
 include '../includes/header.php';
@@ -151,7 +151,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

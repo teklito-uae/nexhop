@@ -1,5 +1,5 @@
 <?php
-$title = "Device Management Solutions - Flash Fix Technologies";
+$title = "Device Management Solutions - Nexhop Computers";
 $description = "Comprehensive device management solutions in Dubai, UAE. Securely manage and monitor all your endpoints, mobile devices, and applications from a centralized platform.";
 $keywords = "device management Dubai, endpoint management, mobile device management, MDM, UEM, application management, IT asset management, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Efficiently Manage and Secure Your Entire Device Fleet</h2>
-                <p class="text-gray-700 mb-4">In today's diverse work environments, managing a multitude of devices—from laptops and desktops to smartphones and tablets—can be a significant challenge. Flash Fix Technologies offers comprehensive Device Management Solutions in Dubai, UAE, providing centralized control, enhanced security, and streamlined management for all your endpoints and mobile devices.</p>
+                <p class="text-gray-700 mb-4">In today's diverse work environments, managing a multitude of devices—from laptops and desktops to smartphones and tablets—can be a significant challenge. Nexhop Computers offers comprehensive Device Management Solutions in Dubai, UAE, providing centralized control, enhanced security, and streamlined management for all your endpoints and mobile devices.</p>
                 <p class="text-gray-700 mb-6">Our solutions simplify IT operations, enforce security policies, deploy applications, and provide remote support, ensuring that all devices are compliant, secure, and productive. Empower your workforce with secure access to corporate resources from any device, anywhere.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits of Our Device Management:</h3>

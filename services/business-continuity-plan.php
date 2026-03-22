@@ -1,5 +1,5 @@
 <?php
-$title = "Business Continuity Plan (BCP) Dubai - Operational Resilience | Flash Fix";
+$title = "Business Continuity Plan (BCP) Dubai - Operational Resilience | Nexhop";
 $description = "Develop robust Business Continuity Plans (BCP) in Dubai, UAE. Ensure your business operations can withstand disruptions and recover quickly from unforeseen events.";
 $keywords = "business continuity plan Dubai, BCP, disaster recovery planning, operational resilience, crisis management, IT resilience, Dubai, UAE";
 include '../includes/header.php';
@@ -149,7 +149,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-12">

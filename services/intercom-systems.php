@@ -1,5 +1,5 @@
 <?php
-$title = "Intercom Systems - Flash Fix Technologies";
+$title = "Intercom Systems - Nexhop Computers";
 $description = "Modern intercom systems for homes and businesses in Dubai, UAE. Enhance communication and security with audio and video intercom solutions.";
 $keywords = "intercom systems Dubai, video intercom, audio intercom, door entry systems, communication systems, security intercom, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Reliable Communication and Access Management</h2>
-                <p class="text-gray-700 mb-4">Intercom systems are essential for secure and efficient communication within buildings and at entry points. Flash Fix Technologies provides a wide range of modern Intercom Systems for residential, commercial, and industrial properties in Dubai, UAE. Our solutions enhance security by allowing you to identify visitors before granting access and facilitate clear internal communication.</p>
+                <p class="text-gray-700 mb-4">Intercom systems are essential for secure and efficient communication within buildings and at entry points. Nexhop Computers provides a wide range of modern Intercom Systems for residential, commercial, and industrial properties in Dubai, UAE. Our solutions enhance security by allowing you to identify visitors before granting access and facilitate clear internal communication.</p>
                 <p class="text-gray-700 mb-6">From simple audio intercoms to advanced video door entry systems integrated with access control, we design and install solutions that meet your specific security and communication needs. Experience convenience, safety, and control with our reliable intercom systems.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits:</h3>

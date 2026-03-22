@@ -1,5 +1,5 @@
 <?php
-$title = "Biometric Attendance System - Flash Fix Technologies";
+$title = "Biometric Attendance System - Nexhop Computers";
 $description = "Reliable biometric attendance systems for businesses in Dubai, UAE. Streamline employee time tracking with fingerprint, facial recognition, and RFID solutions.";
 $keywords = "biometric attendance, time attendance system, fingerprint scanner, facial recognition, RFID attendance, employee time tracking, Dubai, UAE";
 include '../includes/header.php';
@@ -18,7 +18,7 @@ include '../includes/navbar.php';
         <div class="md:flex">
             <div class="md:w-2/3 md:pr-12">
                 <h2 class="text-3xl font-bold text-secondary mb-6">Accurate and Efficient Workforce Management</h2>
-                <p class="text-gray-700 mb-4">Accurate time and attendance tracking is crucial for efficient payroll management and workforce productivity. Flash Fix Technologies offers advanced Biometric Attendance Systems that provide reliable, secure, and automated solutions for businesses in Dubai, UAE. Our systems eliminate manual errors, reduce time theft, and streamline HR processes.</p>
+                <p class="text-gray-700 mb-4">Accurate time and attendance tracking is crucial for efficient payroll management and workforce productivity. Nexhop Computers offers advanced Biometric Attendance Systems that provide reliable, secure, and automated solutions for businesses in Dubai, UAE. Our systems eliminate manual errors, reduce time theft, and streamline HR processes.</p>
                 <p class="text-gray-700 mb-6">From fingerprint and facial recognition to RFID card-based solutions, we design and implement systems tailored to your organization's specific needs. Enhance accountability and operational efficiency with our state-of-the-art biometric attendance solutions.</p>
                 
                 <h3 class="text-2xl font-bold text-secondary mb-4">Key Features & Benefits:</h3>

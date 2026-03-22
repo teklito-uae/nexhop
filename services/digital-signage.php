@@ -1,5 +1,5 @@
 <?php
-$title = "Digital Signage Solutions Dubai - Interactive Content | Flash Fix";
+$title = "Digital Signage Solutions Dubai - Interactive Content | Nexhop";
 $description = "Engage your audience with dynamic digital signage in Dubai, UAE. Professional CMS setup, commercial displays, and content scheduling for retail and corporate.";
 $keywords = "digital signage Dubai, LED display, LCD display, content management system, CMS, advertising screens, information displays, Dubai, UAE";
 include '../includes/header.php';
@@ -147,7 +147,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 
-    <!-- FlashFix Advantage Section -->
+    <!-- Nexhop Advantage Section -->
     <section class="py-16 bg-white dark:bg-surface relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center lg:text-left">
             <div class="flex flex-col lg:flex-row items-center gap-12">

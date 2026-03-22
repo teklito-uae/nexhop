@@ -1,7 +1,7 @@
 <?php
-$title = "Top 5 Cyber Security Threats to Watch in 2026 | Flash Fix Insights";
+$title = "Top 5 Cyber Security Threats to Watch in 2026 | Nexhop Insights";
 $description = "As AI-driven attacks become more sophisticated, businesses must adapt their defense strategies to protect sensitive data. Here are the top 5 threats for 2026.";
-$keywords = "Cyber Security, IT Security 2026, Ransomware, AI Attacks, Flash Fix";
+$keywords = "Cyber Security, IT Security 2026, Ransomware, AI Attacks, Nexhop";
 include '../includes/header.php';
 include '../includes/navbar.php';
 ?>
@@ -119,7 +119,7 @@ include '../includes/navbar.php';
                 endpoint detection and response (EDR), and rigid access controls.
             </p>
             <p>
-                <strong>Flash Fix Technologies</strong> engineers military-grade security architectures that anticipate,
+                <strong>Nexhop Computers</strong> engineers military-grade security architectures that anticipate,
                 identify, and neutralize threats before they impact your operations. Don't wait for a breach to realize
                 the value of comprehensive protection.
             </p>
