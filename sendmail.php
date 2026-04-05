@@ -13,7 +13,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 
 // Configuration
-$to_email = 'info@nexhop.ae'; // Change this to your actual email
+$to_email = 'info@nexhop.ae'; // Updated email address
 $subject_prefix = 'Nexhop Computers - Contact Form';
 $allowed_domains = ['nexhop.ae', 'localhost']; // Add your domain
 
@@ -167,7 +167,7 @@ try {
     </html>";
 
     // Set email headers
-    $headers = "From: {$name} <{$email}>\r\n";
+    $headers = "From: Nexhop Computers <info@nexhop.ae>\r\n"; // Updated sender
     $headers .= "Reply-To: {$email}\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
@@ -232,7 +232,7 @@ function get_client_ip()
 
 function send_confirmation_email($user_email, $user_name)
 {
-    global $to_email;
+    $to_email = 'info@nexhop.ae'; // Updated confirmation sender
 
     $subject = 'Thank you for contacting Nexhop Computers';
 
@@ -267,10 +267,11 @@ function send_confirmation_email($user_email, $user_name)
     </body>
     </html>";
 
-    $headers = "From: Nexhop Computers <{$to_email}>\r\n";
+    $headers = "From: Nexhop Computers <info@nexhop.ae>\r\n"; // Updated sender
     $headers .= "Reply-To: {$to_email}\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
     mail($user_email, $subject, $html_body, $headers);
 }
+?>
