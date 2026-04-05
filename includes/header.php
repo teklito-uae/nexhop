@@ -3,6 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-900YNW7VZH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-900YNW7VZH');
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="description"
         content="<?php echo isset($pageDescription) ? $pageDescription : 'Nexhop Computers - UAE-based IT and networking solutions provider specializing in enterprise technology infrastructure.'; ?>">
