@@ -68,9 +68,7 @@ file_put_contents($rateLimitFile, json_encode($rateData, JSON_PRETTY_PRINT));
 
 // Prepare email content
 $recipients = [
-    'sales@nexhop.ae',
-    'ismail@zeronix.ae',
-    'ismail.zeronix@gmail.com'
+    'info@nexhop.ae',
 ];
 
 $subject = "Wholesale Inquiry: {$interest} from {$company}";
