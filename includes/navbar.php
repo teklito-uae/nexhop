@@ -290,8 +290,8 @@
                     </div>
                 </div>
 
-                <a href="/products.php"
-                    class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white border-b-2 border-transparent hover:border-blue-600 dark:hover:border-cyan-400 transition-all duration-200">Products</a>
+                <a href="/brands.php"
+                    class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white border-b-2 border-transparent hover:border-blue-600 dark:hover:border-cyan-400 transition-all duration-200">Brands</a>
                 <a href="/industries.php"
                     class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white border-b-2 border-transparent hover:border-blue-600 dark:hover:border-cyan-400 transition-all duration-200">Industries</a>
                 <a href="/contact.php"
@@ -399,7 +399,7 @@
                             </svg>
                         </div>
                     </button>
-                    <a href="/products.php" class="m-nav-link group">
+                    <a href="/brands.php" class="m-nav-link group">
                         <div class="flex items-center gap-5">
                             <div
                                 class="w-11 h-11 rounded-2xl bg-white/5 flex items-center justify-center text-white/30 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
@@ -408,7 +408,7 @@
                                         d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
                                 </svg>
                             </div>
-                            <span class="text-[16px] font-black uppercase tracking-tighter">Products</span>
+                            <span class="text-[16px] font-black uppercase tracking-tighter">Brands</span>
                         </div>
                     </a>
                     <a href="/contact.php" class="m-nav-link group">

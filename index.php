@@ -77,7 +77,7 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
             <!-- Row 1 -->
 
             <!-- Network Switches -->
-            <a href="/products.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
+            <a href="/brands.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
                 <img src="/assets/categories/switches_600.webp" alt="Network Switches"
                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/90 via-blue-600/40 to-transparent group-hover:from-blue-600/95 transition-colors"></div>
@@ -88,7 +88,7 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
             </a>
 
             <!-- Wireless Systems -->
-            <a href="/products.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
+            <a href="/brands.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
                 <img src="/assets/categories/wireless_systems_600.webp" alt="Wireless Systems"
                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/90 via-blue-600/40 to-transparent group-hover:from-blue-600/95 transition-colors"></div>
@@ -99,7 +99,7 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
             </a>
 
             <!-- LTE & 5G -->
-            <a href="/products.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
+            <a href="/brands.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
                 <img src="/assets/categories/LTE_5G_600.webp" alt="LTE & 5G"
                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/90 via-blue-600/40 to-transparent group-hover:from-blue-600/95 transition-colors"></div>
@@ -110,7 +110,7 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
             </a>
 
             <!-- Ethernet Routers -->
-            <a href="/products.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
+            <a href="/brands.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
                 <img src="/assets/categories/ethernet_routers_600.webp" alt="Ethernet Routers"
                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/90 via-blue-600/40 to-transparent group-hover:from-blue-600/95 transition-colors"></div>
@@ -123,7 +123,7 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
             <!-- Row 2 -->
 
             <!-- Routerboard -->
-            <a href="/products.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
+            <a href="/brands.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
                 <img src="/assets/categories/routerboard_600.webp" alt="RouterBOARD"
                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/90 via-blue-600/40 to-transparent group-hover:from-blue-600/95 transition-colors"></div>
@@ -134,7 +134,7 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
             </a>
 
             <!-- 60GHz -->
-            <a href="/products.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
+            <a href="/brands.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
                 <img src="/assets/categories/60GHz_600.webp" alt="60GHz Wireless"
                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/90 via-blue-600/40 to-transparent group-hover:from-blue-600/95 transition-colors"></div>
@@ -145,7 +145,7 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
             </a>
 
             <!-- Home & Office Wireless -->
-            <a href="/products.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
+            <a href="/brands.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
                 <img src="/assets/categories/wireless_home_office_600.webp" alt="Home & Office Wireless"
                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/90 via-blue-600/40 to-transparent group-hover:from-blue-600/95 transition-colors"></div>
@@ -156,7 +156,7 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
             </a>
 
             <!-- IoT -->
-            <a href="/products.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
+            <a href="/brands.php" class="group relative rounded-2xl md:rounded-3xl overflow-hidden col-span-1 cursor-pointer">
                 <img src="/assets/categories/IoT_600.webp" alt="IoT Solutions"
                     class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-blue-600/90 via-blue-600/40 to-transparent group-hover:from-blue-600/95 transition-colors"></div>
@@ -170,7 +170,7 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
 
         <!-- View All -->
         <div class="mt-12 text-center">
-            <a href="/products.php"
+            <a href="/brands.php"
                 class="inline-flex items-center px-8 py-4 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-black text-sm tracking-widest uppercase transition-all duration-300 shadow-xl shadow-blue-600/30 hover:shadow-2xl hover:shadow-blue-600/40 transform hover:-translate-y-1 group">
                 View All Networking Products
                 <svg class="w-5 h-5 ml-2.5 group-hover:translate-x-1.5 transition-transform" fill="none"
@@ -274,7 +274,7 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
             </a>
 
             <!-- Networking Equipment -->
-            <a href="/products.php" class="group text-center cursor-pointer">
+            <a href="/brands.php" class="group text-center cursor-pointer">
                 <div class="bg-gray-50 dark:bg-base rounded-2xl border border-gray-100 dark:border-white/5 p-6 md:p-8 hover:border-blue-600/30 dark:hover:border-cyan-400/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                     <div class="w-14 h-14 mx-auto rounded-xl bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center text-blue-600 dark:text-cyan-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>

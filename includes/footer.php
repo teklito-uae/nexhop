@@ -75,7 +75,7 @@
                     <li><a href="/services/server-solutions.php" class="text-sm text-white/50 hover:text-blue-400 transition-colors">Server Solutions</a></li>
                     <li><a href="/services/next-gen-firewall.php" class="text-sm text-white/50 hover:text-blue-400 transition-colors">Firewall</a></li>
                     <li><a href="/services/vpn-solutions.php" class="text-sm text-white/50 hover:text-blue-400 transition-colors">VPN Solutions</a></li>
-                    <li><a href="/products.php" class="text-sm text-white/50 hover:text-blue-400 transition-colors">All Products</a></li>
+                    <li><a href="/brands.php" class="text-sm text-white/50 hover:text-blue-400 transition-colors">Brands</a></li>
                 </ul>
             </div>
 
