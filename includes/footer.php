@@ -26,13 +26,13 @@
 </section>
 
 <!-- Footer -->
-<footer class="bg-[#0B1F3A] text-white/80 border-t border-blue-600/30">
+<footer class="bg-[#000e75] text-white/80 border-t border-blue-600/30">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 sm:pt-16 pb-10">
         <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10 pb-10">
             <!-- Company Info -->
             <div class="col-span-2 lg:col-span-2">
                 <a href="/" class="block mb-5">
-                    <img src="/assets/nexhop.webp" alt="Nexhop" class="h-9 w-auto footer-logo">
+                    <img src="/assets/nexhop.webp" alt="Nexhop" class="h-9 w-auto footer-logo" style="filter: brightness(0) invert(1);">
                 </a>
                 <p class="text-sm leading-relaxed text-white/50 mb-6 max-w-sm">
                     Nexhop Computers is a UAE-based IT and networking solutions provider, specializing in enterprise technology infrastructure and wholesale distribution.

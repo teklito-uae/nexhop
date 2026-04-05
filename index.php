@@ -79,9 +79,11 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
 <!-- Brand Carousel (Text) -->
 <section class="py-10 md:py-16 bg-gray-50 dark:bg-base overflow-hidden border-b border-gray-200 dark:border-white/5">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <div class="text-center mb-8 md:mb-12">
-            <span class="text-[10px] sm:text-xs tracking-widest uppercase font-bold text-blue-600 mb-2 sm:mb-3 block">Our Trusted Partners</span>
+            <span
+                class="text-[10px] sm:text-xs tracking-widest uppercase font-bold text-blue-600 mb-2 sm:mb-3 block">Our
+                Trusted Partners</span>
             <h2 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-800 dark:text-white tracking-tight">
                 Authorized Supplier For Global IT Leaders
             </h2>
@@ -89,23 +91,29 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
 
         <div class="relative overflow-hidden">
             <!-- Fading Edges -->
-            <div class="absolute top-0 left-0 bottom-0 w-16 sm:w-32 bg-gradient-to-r from-gray-50 dark:from-base to-transparent z-10 pointer-events-none"></div>
-            <div class="absolute top-0 right-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-gray-50 dark:from-base to-transparent z-10 pointer-events-none"></div>
+            <div
+                class="absolute top-0 left-0 bottom-0 w-16 sm:w-32 bg-gradient-to-r from-gray-50 dark:from-base to-transparent z-10 pointer-events-none">
+            </div>
+            <div
+                class="absolute top-0 right-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-gray-50 dark:from-base to-transparent z-10 pointer-events-none">
+            </div>
 
             <div class="swiper brand-logo-swiper py-2" dir="ltr">
                 <div class="swiper-wrapper items-center flex">
                     <?php
                     $brandsList = ['DELL', 'HP', 'CISCO', 'FORTINET', 'ARUBA', 'RUIJIE', 'UBIQUITI', 'MIKROTIK', 'HIKVISION', 'YEALINK', 'QNAP', 'TP-LINK', 'LOGITECH', 'ZKTeco', 'SOPHOS'];
-                    for ($loop = 0; $loop < 3; $loop++) { 
-                        foreach($brandsList as $b) { ?>
-                    <div class="swiper-slide text-center flex justify-center items-center">
-                        <span class="text-lg sm:text-xl md:text-2xl font-black text-gray-400 hover:text-blue-600 dark:text-gray-500 dark:hover:text-white uppercase tracking-wider transition-colors duration-300"><?php echo $b; ?></span>
-                    </div>
-                    <?php } } ?>
+                    for ($loop = 0; $loop < 3; $loop++) {
+                        foreach ($brandsList as $b) { ?>
+                            <div class="swiper-slide text-center flex justify-center items-center">
+                                <span
+                                    class="text-lg sm:text-xl md:text-2xl font-black text-gray-400 hover:text-blue-600 dark:text-gray-500 dark:hover:text-white uppercase tracking-wider transition-colors duration-300"><?php echo $b; ?></span>
+                            </div>
+                        <?php }
+                    } ?>
                 </div>
             </div>
         </div>
-        
+
     </div>
 </section>
 
@@ -264,162 +272,101 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
 </section>
 
 <!-- Product Categories -->
-<section class="py-16 md:py-24 bg-white dark:bg-surface relative overflow-hidden">
+<section class="py-16 md:py-24 bg-gray-50 dark:bg-base relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12 md:mb-16">
-            <span class="text-[10px] tracking-widest uppercase font-bold text-blue-600 mb-3 block">Browse Shop</span>
-            <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 dark:text-white mb-3 tracking-tight">
-                Product Categories</h2>
-            <p class="text-sm text-gray-500 dark:text-slate-400 max-w-xl mx-auto">Explore our full range of IT hardware,
-                peripherals, and complete computing systems.</p>
+            <span class="text-[10px] tracking-widest uppercase font-bold text-blue-600 mb-3 block">Shop by
+                Category</span>
+            <h2
+                class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-3 tracking-tight">
+                Enterprise IT Products & Equipment</h2>
+            <p class="text-sm text-gray-500 dark:text-slate-400 max-w-xl mx-auto">Browse our complete inventory of
+                enterprise hardware, all stocked in Dubai with wholesale pricing.</p>
         </div>
 
-        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+        <div class="grid grid-cols-2 gap-4 md:gap-6 auto-rows-fr">
 
             <!-- Laptops -->
-            <a href="/shop.php?category=laptops" class="group text-center cursor-pointer">
-                <div
-                    class="bg-gray-50 dark:bg-base rounded-2xl border border-gray-100 dark:border-white/5 p-6 md:p-8 hover:border-blue-600/30 dark:hover:border-cyan-400/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                    <div
-                        class="w-14 h-14 mx-auto rounded-xl bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center text-blue-600 dark:text-cyan-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-sm md:text-base font-extrabold text-gray-900 dark:text-white mb-1">Laptops</h3>
-                    <p class="text-[11px] text-gray-400 dark:text-slate-500 hidden sm:block">Business & enterprise
-                        notebooks</p>
+            <a href="/shop.php?category=laptops"
+                class="bg-white dark:bg-surface rounded-3xl border border-gray-100 dark:border-white/5 p-5 md:p-6 group cursor-pointer hover:border-blue-500/30 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex items-center gap-4">
+                <div class="w-12 h-12 bg-blue-50 dark:bg-blue-600/10 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:bg-blue-600 transition-colors duration-300">
+                    <svg class="w-6 h-6 text-blue-600 dark:text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2-2v10a2 2 0 002 2z"></path>
+                    </svg>
                 </div>
-            </a>
-
-            <!-- Desktops -->
-            <a href="/shop.php?category=desktops" class="group text-center cursor-pointer">
-                <div
-                    class="bg-gray-50 dark:bg-base rounded-2xl border border-gray-100 dark:border-white/5 p-6 md:p-8 hover:border-blue-600/30 dark:hover:border-cyan-400/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                    <div
-                        class="w-14 h-14 mx-auto rounded-xl bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center text-blue-600 dark:text-cyan-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                            </path>
-                            <line x1="12" y1="2" x2="12" y2="5" stroke-width="1.5"></line>
-                            <line x1="8" y1="3" x2="8" y2="5" stroke-width="1.5"></line>
-                            <line x1="16" y1="3" x2="16" y2="5" stroke-width="1.5"></line>
-                        </svg>
-                    </div>
-                    <h3 class="text-sm md:text-base font-extrabold text-gray-900 dark:text-white mb-1">Desktops</h3>
-                    <p class="text-[11px] text-gray-400 dark:text-slate-500 hidden sm:block">Workstations & towers</p>
-                </div>
-            </a>
-
-            <!-- All-in-One -->
-            <a href="/shop.php?category=all-in-one" class="group text-center cursor-pointer">
-                <div
-                    class="bg-gray-50 dark:bg-base rounded-2xl border border-gray-100 dark:border-white/5 p-6 md:p-8 hover:border-blue-600/30 dark:hover:border-cyan-400/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                    <div
-                        class="w-14 h-14 mx-auto rounded-xl bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center text-blue-600 dark:text-cyan-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-sm md:text-base font-extrabold text-gray-900 dark:text-white mb-1">All-in-One</h3>
-                    <p class="text-[11px] text-gray-400 dark:text-slate-500 hidden sm:block">Compact desktop solutions
-                    </p>
+                <div>
+                    <h3 class="text-sm font-black text-gray-900 dark:text-white uppercase tracking-tight">Laptops</h3>
+                    <p class="text-[10px] text-gray-500 dark:text-slate-400 leading-none mt-1">Enterprise NoteBooks</p>
                 </div>
             </a>
 
             <!-- Servers -->
-            <a href="/shop.php?category=servers" class="group text-center cursor-pointer">
-                <div
-                    class="bg-gray-50 dark:bg-base rounded-2xl border border-gray-100 dark:border-white/5 p-6 md:p-8 hover:border-blue-600/30 dark:hover:border-cyan-400/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                    <div
-                        class="w-14 h-14 mx-auto rounded-xl bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center text-blue-600 dark:text-cyan-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-sm md:text-base font-extrabold text-gray-900 dark:text-white mb-1">Servers</h3>
-                    <p class="text-[11px] text-gray-400 dark:text-slate-500 hidden sm:block">Rack & tower server systems
-                    </p>
+            <a href="/shop.php?category=servers"
+                class="bg-white dark:bg-surface rounded-3xl border border-gray-100 dark:border-white/5 p-5 md:p-6 group cursor-pointer hover:border-blue-500/30 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex items-center gap-4">
+                <div class="w-12 h-12 bg-blue-50 dark:bg-blue-600/10 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:bg-blue-600 transition-colors duration-300">
+                    <svg class="w-6 h-6 text-blue-600 dark:text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-sm font-black text-gray-900 dark:text-white uppercase tracking-tight">Servers</h3>
+                    <p class="text-[10px] text-gray-500 dark:text-slate-400 leading-none mt-1">Dell & HP Systems</p>
                 </div>
             </a>
 
-            <!-- Conference Room Solutions -->
-            <a href="/shop.php?category=conference" class="group text-center cursor-pointer">
-                <div
-                    class="bg-gray-50 dark:bg-base rounded-2xl border border-gray-100 dark:border-white/5 p-6 md:p-8 hover:border-blue-600/30 dark:hover:border-cyan-400/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                    <div
-                        class="w-14 h-14 mx-auto rounded-xl bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center text-blue-600 dark:text-cyan-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-sm md:text-base font-extrabold text-gray-900 dark:text-white mb-1">Conference Room
-                    </h3>
-                    <p class="text-[11px] text-gray-400 dark:text-slate-500 hidden sm:block">AV & meeting room solutions
-                    </p>
+            <!-- Desktops -->
+            <a href="/shop.php?category=desktops"
+                class="bg-white dark:bg-surface rounded-3xl border border-gray-100 dark:border-white/5 p-5 md:p-6 group cursor-pointer hover:border-blue-500/30 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex items-center gap-4">
+                <div class="w-12 h-12 bg-blue-50 dark:bg-blue-600/10 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:bg-blue-600 transition-colors duration-300">
+                    <svg class="w-6 h-6 text-blue-600 dark:text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-sm font-black text-gray-900 dark:text-white uppercase tracking-tight">Desktops</h3>
+                    <p class="text-[10px] text-gray-500 dark:text-slate-400 leading-none mt-1">Office Workstations</p>
                 </div>
             </a>
 
-            <!-- Accessories -->
-            <a href="/shop.php?category=accessories" class="group text-center cursor-pointer">
-                <div
-                    class="bg-gray-50 dark:bg-base rounded-2xl border border-gray-100 dark:border-white/5 p-6 md:p-8 hover:border-blue-600/30 dark:hover:border-cyan-400/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                    <div
-                        class="w-14 h-14 mx-auto rounded-xl bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center text-blue-600 dark:text-cyan-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z">
-                            </path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-sm md:text-base font-extrabold text-gray-900 dark:text-white mb-1">Accessories</h3>
-                    <p class="text-[11px] text-gray-400 dark:text-slate-500 hidden sm:block">Cables, adapters & more</p>
+            <!-- AV & Video -->
+            <a href="/shop.php?category=conference"
+                class="bg-white dark:bg-surface rounded-3xl border border-gray-100 dark:border-white/5 p-5 md:p-6 group cursor-pointer hover:border-blue-500/30 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex items-center gap-4">
+                <div class="w-12 h-12 bg-blue-50 dark:bg-blue-600/10 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:bg-blue-600 transition-colors duration-300">
+                    <svg class="w-6 h-6 text-blue-600 dark:text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-sm font-black text-gray-900 dark:text-white uppercase tracking-tight">AV & Video</h3>
+                    <p class="text-[10px] text-gray-500 dark:text-slate-400 leading-none mt-1">Meeting Hardware</p>
                 </div>
             </a>
 
-            <!-- Gaming PC -->
-            <a href="/shop.php?category=gaming" class="group text-center cursor-pointer">
-                <div
-                    class="bg-gray-50 dark:bg-base rounded-2xl border border-gray-100 dark:border-white/5 p-6 md:p-8 hover:border-blue-600/30 dark:hover:border-cyan-400/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                    <div
-                        class="w-14 h-14 mx-auto rounded-xl bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center text-blue-600 dark:text-cyan-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-sm md:text-base font-extrabold text-gray-900 dark:text-white mb-1">Gaming PC</h3>
-                    <p class="text-[11px] text-gray-400 dark:text-slate-500 hidden sm:block">Custom gaming builds</p>
+             <!-- Gaming -->
+             <a href="/shop.php?category=gaming"
+                class="bg-white dark:bg-surface rounded-3xl border border-gray-100 dark:border-white/5 p-5 md:p-6 group cursor-pointer hover:border-blue-500/30 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex items-center gap-4">
+                <div class="w-12 h-12 bg-blue-50 dark:bg-blue-600/10 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:bg-blue-600 transition-colors duration-300">
+                    <svg class="w-6 h-6 text-blue-600 dark:text-blue-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-sm font-black text-gray-900 dark:text-white uppercase tracking-tight">Gaming PC</h3>
+                    <p class="text-[10px] text-gray-500 dark:text-slate-400 leading-none mt-1">Custom Builds</p>
                 </div>
             </a>
 
-            <!-- Networking Equipment -->
-            <a href="/brands.php" class="group text-center cursor-pointer">
-                <div
-                    class="bg-gray-50 dark:bg-base rounded-2xl border border-gray-100 dark:border-white/5 p-6 md:p-8 hover:border-blue-600/30 dark:hover:border-cyan-400/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-                    <div
-                        class="w-14 h-14 mx-auto rounded-xl bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center text-blue-600 dark:text-cyan-400 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="text-sm md:text-base font-extrabold text-gray-900 dark:text-white mb-1">Networking</h3>
-                    <p class="text-[11px] text-gray-400 dark:text-slate-500 hidden sm:block">Routers, switches &
-                        firewalls</p>
+            <!-- Explore Brands (The Blue Card) -->
+            <a href="/brands.php"
+                class="bg-blue-600 dark:bg-blue-700 rounded-3xl p-5 md:p-6 group cursor-pointer hover:shadow-2xl hover:shadow-blue-600/30 transition-all duration-300 hover:-translate-y-1 flex items-center justify-between overflow-hidden relative">
+                <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/connected.png')] opacity-10 mix-blend-overlay"></div>
+                <div class="relative z-10 flex flex-col justify-center">
+                    <h3 class="text-sm font-black text-white uppercase tracking-tight leading-tight">Explore all <br/>Global Brands</h3>
+                </div>
+                <div class="relative z-10 w-9 h-9 bg-white/20 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-white/30 transition-all">
+                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                    </svg>
                 </div>
             </a>
 
@@ -902,9 +849,6 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
                 <div
                     class="absolute inset-0 bg-gradient-to-tr from-blue-600/15 to-cyan-400/15 rounded-full blur-[80px] -z-10 transform scale-90 translate-x-5 translate-y-5">
                 </div>
-                <img src="/assets/nexhop.webp" alt="Nexhop Warehouse Logistics"
-                    class="rounded-[2rem] w-full lg:w-[90%] h-auto lg:ml-auto shadow-xl relative border border-gray-100 dark:border-white/5 object-cover z-10">
-
                 <!-- Floating Metrics Bento Card (Minimalist) -->
                 <div
                     class="lg:absolute lg:-bottom-8 lg:-left-6 mt-6 lg:mt-0 bg-white dark:bg-surface rounded-3xl p-6 shadow-[0_15px_30px_-10px_rgba(0,0,0,0.1)] border border-gray-100 dark:border-white/5 w-full lg:w-[70%] z-20 backdrop-blur-xl bg-opacity-95 dark:bg-opacity-95">
@@ -1319,117 +1263,166 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
             </a>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            <!-- Blog Card 1 -->
-            <a href="/insights/cyber-security-threats-2026.php"
-                class="group flex flex-col bg-white dark:bg-surface rounded-[2rem] overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-2xl hover:shadow-blue-500/10 h-full">
-                <div class="relative h-48 sm:h-56 overflow-hidden">
-                    <img src="/assets/images/cyber-security.png" alt="Cyber Security Trends 2026"
-                        class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-600/50 via-blue-600/20 to-transparent">
+        <div class="relative">
+            <!-- Swiper Container -->
+            <div class="swiper blogSwiper overflow-hidden">
+                <div class="swiper-wrapper">
+                    <!-- Blog Card 1 -->
+                    <div class="swiper-slide h-auto">
+                        <a href="/insights/cyber-security-threats-2026.php"
+                            class="group/card flex flex-col bg-white dark:bg-surface rounded-2xl md:rounded-3xl overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-xl h-full">
+                            <div class="relative h-32 overflow-hidden">
+                                <img src="/assets/images/cyber-security.png" alt="Security 2026"
+                                    class="w-full h-full object-cover transform group-hover/card:scale-105 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-blue-900/40 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 px-2.5 py-1 bg-blue-600 text-white text-[7px] font-black uppercase tracking-widest rounded-lg">Security</span>
+                            </div>
+                            <div class="p-4 flex flex-col flex-grow">
+                                <div class="text-[8px] text-gray-400 dark:text-slate-500 font-bold uppercase tracking-widest mb-1.5 flex items-center">
+                                    MAR 28 <span class="mx-1.5 w-1 h-1 rounded-full bg-blue-600/30"></span> 6 MIN
+                                </div>
+                                <h3 class="text-xs font-black text-gray-900 dark:text-white mb-1.5 leading-tight uppercase tracking-tight group-hover/card:text-blue-600 transition-colors">
+                                    Cyber <span class="text-blue-600 italic">Threats</span> 2026
+                                </h3>
+                                <p class="text-[9px] text-gray-500 dark:text-slate-400 leading-tight line-clamp-1">
+                                    AI-driven threats & zero-trust defense.
+                                </p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="absolute bottom-5 left-5">
-                        <span
-                            class="px-3 py-1 bg-blue-600 text-white text-[10px] font-extrabold uppercase tracking-widest rounded-full shadow-sm">Security</span>
-                    </div>
-                </div>
-                <div class="p-6 flex flex-col flex-grow">
-                    <div
-                        class="text-[10px] text-gray-400 dark:text-slate-500 font-bold uppercase tracking-widest mb-3 flex items-center">
-                        March 28, 2026 <span class="mx-2 w-1 h-1 rounded-full bg-gray-300 dark:bg-slate-600"></span> 6
-                        min read</div>
-                    <h3
-                        class="text-lg font-extrabold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-cyan-400 transition-colors leading-snug">
-                        Top 5 Cyber Security Threats to Watch in 2026</h3>
-                    <p class="text-xs text-gray-500 dark:text-slate-400 leading-relaxed line-clamp-2 mb-6 flex-grow">As
-                        AI-driven attacks become more sophisticated, businesses must adapt their defense strategies to
-                        protect sensitive data.</p>
-                    <div
-                        class="flex items-center text-xs font-extrabold text-blue-600 dark:text-cyan-400 mt-auto group-hover:underline decoration-2 underline-offset-4">
-                        Read Full Article <svg
-                            class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-1 transition-transform"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </div>
-                </div>
-            </a>
 
-            <!-- Blog Card 2 -->
-            <a href="/insights/cloud-migration-hybrid-choice.php"
-                class="group flex flex-col bg-white dark:bg-surface rounded-[2rem] overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-2xl hover:shadow-blue-500/10 h-full">
-                <div class="relative h-48 sm:h-56 overflow-hidden">
-                    <img src="/assets/images/structured-cabling-hero.png" alt="Cloud Migration Strategy"
-                        class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-600/50 via-blue-600/20 to-transparent">
+                    <!-- Blog Card 2 -->
+                    <div class="swiper-slide h-auto">
+                        <a href="/insights/sd-wan-solution-multi-site-business.php"
+                            class="group/card flex flex-col bg-white dark:bg-surface rounded-2xl md:rounded-3xl overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-xl h-full">
+                            <div class="relative h-32 overflow-hidden">
+                                <img src="/assets/images/networking.png" alt="SD-WAN Guide"
+                                    class="w-full h-full object-cover transform group-hover/card:scale-105 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-blue-900/40 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 px-2.5 py-1 bg-blue-600 text-white text-[7px] font-black uppercase tracking-widest rounded-lg">Network</span>
+                            </div>
+                            <div class="p-4 flex flex-col flex-grow">
+                                <div class="text-[8px] text-gray-400 dark:text-slate-500 font-bold uppercase tracking-widest mb-1.5 flex items-center">
+                                    APR 02 <span class="mx-1.5 w-1 h-1 rounded-full bg-blue-600/30"></span> 8 MIN
+                                </div>
+                                <h3 class="text-xs font-black text-gray-900 dark:text-white mb-1.5 leading-tight uppercase tracking-tight group-hover/card:text-blue-600 transition-colors">
+                                    Smart <span class="text-blue-600 italic">SD-WAN</span> Solutions
+                                </h3>
+                                <p class="text-[9px] text-gray-500 dark:text-slate-400 leading-tight line-clamp-1">
+                                    Multi-site business connectivity.
+                                </p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="absolute bottom-5 left-5">
-                        <span
-                            class="px-3 py-1 bg-cyan-500 text-white text-[10px] font-extrabold uppercase tracking-widest rounded-full shadow-sm">Cloud</span>
-                    </div>
-                </div>
-                <div class="p-6 flex flex-col flex-grow">
-                    <div
-                        class="text-[10px] text-gray-400 dark:text-slate-500 font-bold uppercase tracking-widest mb-3 flex items-center">
-                        April 05, 2026 <span class="mx-2 w-1 h-1 rounded-full bg-gray-300 dark:bg-slate-600"></span> 5
-                        min read</div>
-                    <h3
-                        class="text-lg font-extrabold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-cyan-400 transition-colors leading-snug">
-                        Cloud Migration: Why Hybrid is the Best Choice for Enterprises</h3>
-                    <p class="text-xs text-gray-500 dark:text-slate-400 leading-relaxed line-clamp-2 mb-6 flex-grow">A
-                        deep dive into why moving your core infrastructure to a hybrid cloud environment maximizes
-                        flexibility and security.</p>
-                    <div
-                        class="flex items-center text-xs font-extrabold text-blue-600 dark:text-cyan-400 mt-auto group-hover:underline decoration-2 underline-offset-4">
-                        Read Full Article <svg
-                            class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-1 transition-transform"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </div>
-                </div>
-            </a>
 
-            <!-- Blog Card 3 -->
-            <a href="/insights/5-signs-it-amc-partner.php"
-                class="group flex flex-col bg-white dark:bg-surface rounded-[2rem] overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-2xl hover:shadow-blue-500/10 h-full">
-                <div class="relative h-48 sm:h-56 overflow-hidden">
-                    <img src="/assets/images/networking.png" alt="IT AMC Partner"
-                        class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-600/50 via-blue-600/20 to-transparent">
+                    <!-- Blog Card 3 -->
+                    <div class="swiper-slide h-auto">
+                        <a href="/insights/cloud-migration-hybrid-choice.php"
+                            class="group/card flex flex-col bg-white dark:bg-surface rounded-2xl md:rounded-3xl overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-xl h-full">
+                            <div class="relative h-32 overflow-hidden">
+                                <img src="/assets/images/cloud-solutions.png" alt="Hybrid Cloud"
+                                    class="w-full h-full object-cover transform group-hover/card:scale-105 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-blue-900/40 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 px-2.5 py-1 bg-blue-600 text-white text-[7px] font-black uppercase tracking-widest rounded-lg">Cloud</span>
+                            </div>
+                            <div class="p-4 flex flex-col flex-grow">
+                                <div class="text-[8px] text-gray-400 dark:text-slate-500 font-bold uppercase tracking-widest mb-1.5 flex items-center">
+                                    APR 10 <span class="mx-1.5 w-1 h-1 rounded-full bg-blue-600/30"></span> 5 MIN
+                                </div>
+                                <h3 class="text-xs font-black text-gray-900 dark:text-white mb-1.5 leading-tight uppercase tracking-tight group-hover/card:text-blue-600 transition-colors">
+                                    Hybrid <span class="text-blue-600 italic">Choice</span> 2026
+                                </h3>
+                                <p class="text-[9px] text-gray-500 dark:text-slate-400 leading-tight line-clamp-1">
+                                    Why moving to hybrid cloud environment.
+                                </p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="absolute bottom-5 left-5">
-                        <span
-                            class="px-3 py-1 bg-[#1A275D] text-white text-[10px] font-extrabold uppercase tracking-widest rounded-full shadow-sm">IT
-                            AMC</span>
+
+                    <!-- Blog Card 4 -->
+                    <div class="swiper-slide h-auto">
+                        <a href="/insights/5-signs-it-amc-partner.php"
+                            class="group/card flex flex-col bg-white dark:bg-surface rounded-2xl md:rounded-3xl overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-xl h-full">
+                            <div class="relative h-32 overflow-hidden">
+                                <img src="/assets/images/it-amc-hero.png" alt="IT AMC"
+                                    class="w-full h-full object-cover transform group-hover/card:scale-105 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-blue-900/40 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 px-2.5 py-1 bg-blue-600 text-white text-[7px] font-black uppercase tracking-widest rounded-lg">AMC</span>
+                            </div>
+                            <div class="p-4 flex flex-col flex-grow">
+                                <div class="text-[8px] text-gray-400 dark:text-slate-500 font-bold uppercase tracking-widest mb-1.5 flex items-center">
+                                    APR 12 <span class="mx-1.5 w-1 h-1 rounded-full bg-blue-600/30"></span> 4 MIN
+                                </div>
+                                <h3 class="text-xs font-black text-gray-900 dark:text-white mb-1.5 leading-tight uppercase tracking-tight group-hover/card:text-blue-600 transition-colors">
+                                    Elite <span class="text-blue-600 italic">AMC</span> Partners
+                                </h3>
+                                <p class="text-[9px] text-gray-500 dark:text-slate-400 leading-tight line-clamp-1">
+                                    Critical signs your business needs AMC.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Blog Card 5 -->
+                    <div class="swiper-slide h-auto">
+                        <a href="/insights/structured-cabling-best-practices.php"
+                            class="group/card flex flex-col bg-white dark:bg-surface rounded-2xl md:rounded-3xl overflow-hidden border border-gray-100 dark:border-white/5 hover:border-blue-500/30 transition-all hover:shadow-xl h-full">
+                            <div class="relative h-32 overflow-hidden">
+                                <img src="/assets/images/structured-cabling-hero.png" alt="Structured Cabling"
+                                    class="w-full h-full object-cover transform group-hover/card:scale-105 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-blue-900/40 via-transparent to-transparent"></div>
+                                <span class="absolute top-3 left-3 px-2.5 py-1 bg-blue-600 text-white text-[7px] font-black uppercase tracking-widest rounded-lg">Cabling</span>
+                            </div>
+                            <div class="p-4 flex flex-col flex-grow">
+                                <div class="text-[8px] text-gray-400 dark:text-slate-500 font-bold uppercase tracking-widest mb-1.5 flex items-center">
+                                    APR 15 <span class="mx-1.5 w-1 h-1 rounded-full bg-blue-600/30"></span> 7 MIN
+                                </div>
+                                <h3 class="text-xs font-black text-gray-900 dark:text-white mb-1.5 leading-tight uppercase tracking-tight group-hover/card:text-blue-600 transition-colors">
+                                    Best <span class="text-blue-600 italic">Cabling</span> Specs
+                                </h3>
+                                <p class="text-[9px] text-gray-500 dark:text-slate-400 leading-tight line-clamp-1">
+                                    Enterprise backbone & fiber cabling.
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="p-6 flex flex-col flex-grow">
-                    <div
-                        class="text-[10px] text-gray-400 dark:text-slate-500 font-bold uppercase tracking-widest mb-3 flex items-center">
-                        April 12, 2026 <span class="mx-2 w-1 h-1 rounded-full bg-gray-300 dark:bg-slate-600"></span> 4
-                        min read</div>
-                    <h3
-                        class="text-lg font-extrabold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-cyan-400 transition-colors leading-snug">
-                        5 Signs Your Business Needs a Professional IT AMC Partner</h3>
-                    <p class="text-xs text-gray-500 dark:text-slate-400 leading-relaxed line-clamp-2 mb-6 flex-grow">
-                        Stop
-                        relying on break-fix methods. Here are the 5 critical warning signs that your infrastructure is
-                        bleeding money.</p>
-                    <div
-                        class="flex items-center text-xs font-extrabold text-blue-600 dark:text-cyan-400 mt-auto group-hover:underline decoration-2 underline-offset-4">
-                        Read Full Article <svg
-                            class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-1 transition-transform"
-                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </div>
-                </div>
-            </a>
+            </div>
+            
+            <!-- Swiper Controllers -->
+            <div class="flex justify-center gap-4 mt-8">
+                <button class="blog-prev w-10 h-10 rounded-full border border-gray-100 dark:border-white/5 bg-white dark:bg-surface flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all text-gray-400">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
+                <button class="blog-next w-10 h-10 rounded-full border border-gray-100 dark:border-white/5 bg-white dark:bg-surface flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all text-gray-400">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+                </button>
+            </div>
         </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                new Swiper('.blogSwiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 16,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.blog-next',
+                        prevEl: '.blog-prev',
+                    },
+                    breakpoints: {
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 16,
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 24,
+                        }
+                    }
+                });
+            });
+        </script>
     </div>
 </section>
 
@@ -1470,55 +1463,118 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
     class="py-10 md:py-12 bg-white dark:bg-surface border-t border-gray-100 dark:border-white/5 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="mb-6">
-            <h2 class="text-xs font-extrabold text-gray-900 dark:text-white uppercase tracking-[0.2em] mb-4">Recently
-                searched keywords</h2>
-            <div class="flex flex-wrap gap-x-3 gap-y-3">
+            <h2
+                class="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 dark:text-white mb-2 tracking-tight">
+                Popular Searches Across UAE</h2>
+            <p class="text-sm text-gray-500 dark:text-slate-400 mb-6">Discover what UAE businesses are searching — top
+                IT solutions, brands, and services we supply.</p>
+            <div class="flex flex-wrap gap-2">
                 <!-- Dubai -->
-                <a href="#"
-                    class="text-[10px] text-gray-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Best IT
-                    AMC Provider in Dubai</a>
-                <span class="text-gray-200 dark:text-slate-800">|</span>
-                <a href="#"
-                    class="text-[10px] text-gray-500 dark:text-slate-400 hover:text-blue-600 transition-colors">CCTV
-                    Installation company in Dubai</a>
-                <span class="text-gray-200 dark:text-slate-800">|</span>
-                <a href="#"
-                    class="text-[10px] text-gray-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Structured
-                    Cabling Services Dubai</a>
-                <span class="text-gray-200 dark:text-slate-800">|</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Best
+                    IT
+                    AMC Provider in Dubai</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">CCTV
+                    Installation Company in Dubai</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Structured
+                    Cabling Services Dubai</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Network
+                    Infrastructure Setup Dubai</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">IT
+                    Equipment Supplier Dubai</span>
 
                 <!-- Sharjah -->
-                <a href="#"
-                    class="text-[10px] text-gray-500 dark:text-slate-400 hover:text-blue-600 transition-colors">IT
-                    Support Specialist Sharjah</a>
-                <span class="text-gray-200 dark:text-slate-800">|</span>
-                <a href="#"
-                    class="text-[10px] text-gray-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Professional
-                    Firewall Setup Sharjah</a>
-                <span class="text-gray-200 dark:text-slate-800">|</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">IT
+                    Support Specialist Sharjah</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Professional
+                    Firewall Setup Sharjah</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Office
+                    IT Setup Sharjah</span>
 
                 <!-- Abu Dhabi -->
-                <a href="#"
-                    class="text-[10px] text-gray-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Enterprise
-                    Cloud Migration Abu Dhabi</a>
-                <span class="text-gray-200 dark:text-slate-800">|</span>
-                <a href="#"
-                    class="text-[10px] text-gray-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Server
-                    Maintenance Abu Dhabi</a>
-                <span class="text-gray-200 dark:text-slate-800">|</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Enterprise
+                    Cloud Migration Abu Dhabi</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Server
+                    Maintenance Abu Dhabi</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Data
+                    Center Setup Abu Dhabi</span>
+
+                <!-- Brand Products -->
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Cisco
+                    Catalyst 9000 Switches UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">FortiGate
+                    Next Gen Firewall UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Ubiquiti
+                    UniFi Access Points UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">HPE
+                    Aruba Switches Dubai</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">MikroTik
+                    RouterBOARD Distributor UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Hikvision
+                    AcuSense CCTV Cameras UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Grandstream
+                    UCM IP PBX Supplier UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Yealink
+                    IP Phone Distributor UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Dell
+                    PowerEdge Server Supplier UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Fortinet
+                    FortiSwitch Stacking UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Cisco
+                    Meraki Cloud Managed UAE</span>
 
                 <!-- Others -->
-                <a href="#"
-                    class="text-[10px] text-gray-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Cyber
-                    Security Audit Ajman</a>
-                <span class="text-gray-200 dark:text-slate-800">|</span>
-                <a href="#"
-                    class="text-[10px] text-gray-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Fiber
-                    Optic Splicing Fujairah</a>
-                <span class="text-gray-200 dark:text-slate-800">|</span>
-                <a href="#"
-                    class="text-[10px] text-gray-500 dark:text-slate-400 hover:text-blue-600 transition-colors">Network
-                    Infrastructure RAK</a>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Cyber
+                    Security Audit Ajman</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Fiber
+                    Optic Splicing Fujairah</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Network
+                    Infrastructure RAK</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">SD-WAN
+                    Solution Multi-Site UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">SIRA
+                    Compliant CCTV Dubai</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">PoE
+                    Switch 48 Port UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">WiFi
+                    6 Access Point Dubai</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">VoIP
+                    Phone System UAE</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">Cat6A
+                    Structured Cabling Dubai</span>
+                <span
+                    class="inline-flex items-center px-2.5 py-1 sm:px-4 sm:py-2 rounded-full bg-gray-100 dark:bg-base text-[10px] sm:text-xs font-semibold text-gray-700 dark:text-gray-700 cursor-default">UniFi
+                    Dream Machine Pro UAE</span>
             </div>
         </div>
 

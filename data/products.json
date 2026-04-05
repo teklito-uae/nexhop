@@ -7,16 +7,24 @@
       "image": "https://ui.com/microsite/static/u7-pro-xgs-DODIRzq6.png",
       "category": "Access Point",
       "description": "High-capacity WiFi 7 access point with 6 GHz support and 2.5 GbE uplink.",
-      "tags": ["Ubiquiti", "WiFi 7", "UniFi"]
+      "tags": [
+        "Ubiquiti",
+        "WiFi 7",
+        "UniFi"
+      ]
     },
-     {
+    {
       "id": "u7-pro-xg",
       "brand": "ubiquiti",
       "name": "Ubiquiti UniFi 7 Pro XG Access Point",
       "image": "https://ui.com/microsite/static/u7-pro-xg-CNiZbmT4.png",
       "category": "Access Point",
       "description": "Enterprise-grade WiFi 7 access point designed for high-density environments.",
-      "tags": ["Ubiquiti", "WiFi 7", "XG"]
+      "tags": [
+        "Ubiquiti",
+        "WiFi 7",
+        "XG"
+      ]
     },
     {
       "id": "u7-pro",
@@ -25,7 +33,11 @@
       "image": "https://ui.com/microsite/static/u7-pro-BKvEmBXX.png",
       "category": "Access Point",
       "description": "Standard WiFi 7 access point for home and office with 6 GHz support.",
-      "tags": ["Ubiquiti", "WiFi 7", "UniFi"]
+      "tags": [
+        "Ubiquiti",
+        "WiFi 7",
+        "UniFi"
+      ]
     },
     {
       "id": "u7-lr",
@@ -34,7 +46,11 @@
       "image": "https://ui.com/microsite/static/u7-long-range-Cp6ct-Lf.png",
       "category": "Access Point",
       "description": "WiFi 7 access point with extended range and powerful antenna design.",
-      "tags": ["Ubiquiti", "WiFi 7", "Long Range"]
+      "tags": [
+        "Ubiquiti",
+        "WiFi 7",
+        "Long Range"
+      ]
     },
     {
       "id": "u7-lite",
@@ -43,7 +59,11 @@
       "image": "https://ui.com/microsite/static/u7-lite-Myt6rw6h.png",
       "category": "Access Point",
       "description": "Cost-effective WiFi 7 access point for small business and remote work.",
-      "tags": ["Ubiquiti", "WiFi 7", "Lite"]
+      "tags": [
+        "Ubiquiti",
+        "WiFi 7",
+        "Lite"
+      ]
     },
     {
       "id": "u6-enterprise",
@@ -52,7 +72,11 @@
       "image": "https://ui.com/microsite/static/u6-enterprise-6OiEKz-2.png",
       "category": "Access Point",
       "description": "WiFi 6E access point with 2.5 GbE uplink and high-density performance.",
-      "tags": ["Ubiquiti", "WiFi 6E", "Enterprise"]
+      "tags": [
+        "Ubiquiti",
+        "WiFi 6E",
+        "Enterprise"
+      ]
     },
     {
       "id": "ccr1009",
@@ -61,7 +85,11 @@
       "image": "/assets/products/mikrotik/1007_tm.webp",
       "category": "Router",
       "description": "High-speed industrial grade router with a 9 core CPU and active cooling.",
-      "tags": ["MikroTik", "Core Router", "BGP"]
+      "tags": [
+        "MikroTik",
+        "Core Router",
+        "BGP"
+      ]
     },
     {
       "id": "hex-poe",
@@ -70,7 +98,11 @@
       "image": "/assets/products/mikrotik/1059_tm.webp",
       "category": "Router",
       "description": "Five port Gigabit Ethernet router for locations where wireless connectivity is not required.",
-      "tags": ["MikroTik", "Gigabit", "PoE"]
+      "tags": [
+        "MikroTik",
+        "Gigabit",
+        "PoE"
+      ]
     },
     {
       "id": "crs326",
@@ -79,7 +111,11 @@
       "image": "/assets/products/mikrotik/1160_tm.webp",
       "category": "Switch",
       "description": "24 port Gigabit Ethernet switch with two SFP+ ports in 1U rackmount case.",
-      "tags": ["MikroTik", "Switch", "SFP+"]
+      "tags": [
+        "MikroTik",
+        "Switch",
+        "SFP+"
+      ]
     },
     {
       "id": "netpower16p",
@@ -88,7 +124,11 @@
       "image": "/assets/products/mikrotik/1230_tm.webp",
       "category": "Switch",
       "description": "18-port outdoor switch with 16 Gigabit PoE-out ports and 2 SFP+ ports.",
-      "tags": ["MikroTik", "Outdoor", "PoE"]
+      "tags": [
+        "MikroTik",
+        "Outdoor",
+        "PoE"
+      ]
     },
     {
       "id": "ldf5",
@@ -97,7 +137,11 @@
       "image": "/assets/products/mikrotik/1409_tm.webp",
       "category": "Wireless",
       "description": "Outdoor wireless system with a built in antenna, meant to be installed on satellite offset dish antennas.",
-      "tags": ["MikroTik", "PtP", "Wireless"]
+      "tags": [
+        "MikroTik",
+        "PtP",
+        "Wireless"
+      ]
     },
     {
       "id": "cap-xl-ac",
@@ -106,7 +150,11 @@
       "image": "/assets/products/mikrotik/2035_tm.webp",
       "category": "Access Point",
       "description": "Ceiling AP with enhanced 360-degree coverage and high-gain antennas.",
-      "tags": ["MikroTik", "cAP", "Wireless"]
+      "tags": [
+        "MikroTik",
+        "cAP",
+        "Wireless"
+      ]
     },
     {
       "id": "audience",
@@ -115,7 +163,11 @@
       "image": "/assets/products/mikrotik/2263_tm.webp",
       "category": "Router",
       "description": "Tri-band home access point with meshing technology and premium design.",
-      "tags": ["MikroTik", "Mesh", "Home Lab"]
+      "tags": [
+        "MikroTik",
+        "Mesh",
+        "Home Lab"
+      ]
     },
     {
       "id": "hap-ax3",
@@ -124,7 +176,11 @@
       "image": "/assets/products/mikrotik/2618_tm.webp",
       "category": "Router",
       "description": "Top-of-the-line home access point with WiFi 6 and high-power antennas.",
-      "tags": ["MikroTik", "WiFi 6", "AX"]
+      "tags": [
+        "MikroTik",
+        "WiFi 6",
+        "AX"
+      ]
     },
     {
       "id": "aruba-ap22",
@@ -133,7 +189,11 @@
       "image": "https://t4.ftcdn.net/jpg/06/71/92/37/360_F_671923740_x0zOL3OIuUAnSF6sr7PuznCI5bQFKhI0.jpg",
       "category": "Access Point",
       "description": "Aruba Instant On AP22 provides high-speed WiFi 6 for small businesses.",
-      "tags": ["Aruba", "Instant On", "WiFi 6"]
+      "tags": [
+        "Aruba",
+        "Instant On",
+        "WiFi 6"
+      ]
     },
     {
       "id": "ucm6302",
@@ -142,7 +202,11 @@
       "image": "https://t4.ftcdn.net/jpg/06/71/92/37/360_F_671923740_x0zOL3OIuUAnSF6sr7PuznCI5bQFKhI0.jpg",
       "category": "PBX Systems",
       "description": "Enterprise-grade unified communications solution for small to medium businesses.",
-      "tags": ["Grandstream", "VoIP", "PBX"]
+      "tags": [
+        "Grandstream",
+        "VoIP",
+        "PBX"
+      ]
     }
   ]
 }

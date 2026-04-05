@@ -12,7 +12,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $recipient = "ismail@zeronix.ae, ismail.zeronix@gmail.com";
+    // ✅ Updated recipient
+    $recipient = "info@nexhop.ae";
+
     $subject = "New Service Request: $service from $name";
 
     $email_content = "Name: $name\n";
@@ -20,9 +22,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_content .= "Service Requested: $service\n\n";
     $email_content .= "Message:\n$message\n";
 
-    $email_headers = "From: $name <$email>";
+    // Better headers (prevents spam issues)
+    $headers = "From: info@nexhop.ae\r\n";
+    $headers .= "Reply-To: $email\r\n";
 
-    if (mail($recipient, $subject, $email_content, $email_headers)) {
+    if (mail($recipient, $subject, $email_content, $headers)) {
         http_response_code(200);
         echo "Thank You! Your message has been sent.";
     } else {
