@@ -1,3 +1,0 @@
-# FlashFix Support - Uploads Directory
-This directory stores file attachments uploaded with tickets.
-Ensure proper permissions are set on the server (chmod 755).

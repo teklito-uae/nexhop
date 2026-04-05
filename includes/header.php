@@ -93,9 +93,12 @@
     <!-- GTM -->
     <!-- Page Loader -->
     <div id="page-loader" class="page-loader">
-        <div class="spinner">
-            <div class="spinnerin"></div>
+        <div class="loader-ring">
+            <span class="loader-ring-item"></span>
+            <span class="loader-ring-item"></span>
+            <span class="loader-ring-item"></span>
         </div>
+        <p class="loader-text">NEXHOP</p>
     </div>
     <script>
         window.addEventListener('load', function () {
@@ -103,7 +106,7 @@
             if (loader) {
                 setTimeout(function () {
                     loader.style.opacity = '0';
-                    setTimeout(function () { loader.style.display = 'none'; }, 200);
+                    setTimeout(function () { loader.style.display = 'none'; }, 400);
                 }, 300);
             }
         });

@@ -1,10 +1,10 @@
 <!-- Top Bar -->
-<div class="bg-gradient-to-r from-blue-600 to-cyan-500 text-white text-xs">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-9">
-        <p class="font-medium hidden sm:block">🏆 #1 Trusted IT Solutions & Hardware Provider in UAE</p>
-        <p class="font-medium sm:hidden text-[10px]">🏆 #1 IT Solutions Provider in UAE</p>
+<div class="bg-blue-600 text-white/90 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-8">
+        <p class="font-medium hidden sm:block text-[11px]">UAE's Trusted IT Solutions & Hardware Provider</p>
+        <p class="font-medium sm:hidden text-[10px]">UAE's Trusted IT Partner</p>
         <div class="flex items-center gap-4 sm:gap-6">
-            <a href="tel:+971559026521" class="flex items-center gap-1.5 hover:text-blue-100 transition-colors">
+            <a href="tel:+971559026521" class="flex items-center gap-1.5 hover:text-white transition-colors">
                 <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.128a11.042 11.042 0 005.516 5.516l1.128-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
@@ -13,7 +13,7 @@
                 <span class="hidden md:inline">+971 55 902 6521</span>
             </a>
             <a href="mailto:sales@nexhop.ae"
-                class="flex items-center gap-1.5 hover:text-blue-100 transition-colors hidden md:flex">
+                class="flex items-center gap-1.5 hover:text-white transition-colors hidden md:flex">
                 <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
@@ -21,7 +21,7 @@
                 </svg>
                 sales@nexhop.ae
             </a>
-            <a href="/contact.php" class="hidden lg:inline font-semibold hover:text-blue-100 transition-colors">Get a
+            <a href="/contact.php" class="hidden lg:inline font-semibold hover:text-white transition-colors">Get a
                 Quote →</a>
         </div>
     </div>
@@ -29,7 +29,7 @@
 
 <!-- Navbar -->
 <nav id="main-nav"
-    class="sticky top-0 z-50 transition-all duration-300 bg-white dark:bg-surface border-b border-gray-200 dark:border-white/5 shadow-sm dark:shadow-none">
+    class="sticky top-0 z-50 transition-all duration-300 bg-surface dark:bg-[#0B141D] border-b border-gray-200 dark:border-white/5">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-14 sm:h-16">
             <!-- Logo -->
@@ -40,23 +40,23 @@
             <!-- Desktop Links -->
             <div class="hidden lg:flex items-center space-x-1">
                 <a href="/"
-                    class="px-3 py-2 rounded-lg text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-500 transition-all duration-200">Home</a>
+                    class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white border-b-2 border-transparent hover:border-blue-600 dark:hover:border-cyan-400 transition-all duration-200">Home</a>
                 <a href="/about.php"
-                    class="px-3 py-2 rounded-lg text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-500 transition-all duration-200">About</a>
+                    class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white border-b-2 border-transparent hover:border-blue-600 dark:hover:border-cyan-400 transition-all duration-200">About</a>
 
                 <!-- Services Dropdown -->
                 <div class="group relative">
                     <a href="/services.php"
-                        class="px-3 py-2 rounded-lg text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-500 transition-all duration-200 flex items-center">
-                        Services
+                        class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white border-b-2 border-transparent hover:border-blue-600 dark:hover:border-cyan-400 transition-all duration-200 flex items-center">
+                        Solutions
                         <svg class="w-3.5 h-3.5 ml-1 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
                             </path>
                         </svg>
                     </a>
-                    <div class="absolute hidden group-hover:block pt-5 left-1/2 -translate-x-1/2">
+                    <div class="absolute hidden group-hover:block pt-4 left-1/2 -translate-x-1/2">
                         <div
-                            class="bg-white dark:bg-[#131B26]/98 backdrop-blur-3xl p-8 lg:p-10 w-[1100px] rounded-[2.5rem] border border-gray-200 dark:border-white/10 shadow-2xl dark:shadow-[0_25px_80px_rgba(0,0,0,0.6)]">
+                            class="bg-white dark:bg-[#131B26]/98 backdrop-blur-3xl p-8 lg:p-10 w-[1100px] rounded-xl border border-gray-200 dark:border-white/10 shadow-xl dark:shadow-[0_25px_80px_rgba(0,0,0,0.6)]">
                             <div class="grid grid-cols-4 gap-10">
                                 <!-- Column 1: IT & Workspace -->
                                 <div>
@@ -295,11 +295,11 @@
                 </div>
 
                 <a href="/products.php"
-                    class="px-3 py-2 rounded-lg text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-500 transition-all duration-200">Products</a>
+                    class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white border-b-2 border-transparent hover:border-blue-600 dark:hover:border-cyan-400 transition-all duration-200">Products</a>
                 <a href="/industries.php"
-                    class="px-3 py-2 rounded-lg text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-500 transition-all duration-200">Industries</a>
+                    class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white border-b-2 border-transparent hover:border-blue-600 dark:hover:border-cyan-400 transition-all duration-200">Industries</a>
                 <a href="/contact.php"
-                    class="px-3 py-2 rounded-lg text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-white hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-500 transition-all duration-200">Contact</a>
+                    class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white border-b-2 border-transparent hover:border-blue-600 dark:hover:border-cyan-400 transition-all duration-200">Contact</a>
             </div>
 
             <!-- Right: Theme Toggle + CTA + Hamburger -->
@@ -325,7 +325,7 @@
                 </button>
 
                 <!-- CTA -->
-                <a href="/contact.php" class="btn-primary hidden sm:inline-block text-xs">Get in Touch</a>
+                <a href="/contact.php" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold px-5 py-2.5 rounded-lg transition-colors hidden sm:inline-block">Get in Touch</a>
 
                 <!-- Category Icon (Hamburger replacement) -->
                 <button id="mobile-menu-btn"

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find . -name \"*.php\" -exec grep -l \"isset\\($pageTitle\\)\" {})",
+      "Bash(\"E:\\\\ISMAIL PERSONAL\\\\FLASH-FIX\\\\nexhop\\\\assets\\\\css\\\\style.css\":*)"
+    ]
+  }
+}
