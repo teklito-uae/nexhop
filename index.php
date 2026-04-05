@@ -301,15 +301,17 @@ $pageDescription = 'UAE-based IT and networking solutions provider specializing 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
 
             <!-- Cloud Solutions -->
-            <a href="/services.php" class="group bg-gray-50 dark:bg-surface rounded-2xl border border-gray-100 dark:border-white/5 overflow-hidden cursor-pointer hover:shadow-xl transition-all duration-300">
-                <div class="relative h-52 overflow-hidden">
-                    <img src="/assets/images/cloud-solutions.png" alt="Cloud Solutions"
-                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-600/30 to-transparent"></div>
+            <a href="/services.php" class="group bg-gray-50 rounded-2xl border border-gray-100 overflow-hidden cursor-pointer hover:shadow-xl transition-all duration-300 relative">
+                <div class="relative h-52 overflow-hidden bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
+                    <svg class="w-20 h-20 text-white/30 group-hover:scale-110 transition-transform duration-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
+                        <circle cx="6" cy="16" r="1.5" fill="currentColor" opacity="0.5"></circle>
+                        <circle cx="18" cy="10" r="1" fill="currentColor" opacity="0.4"></circle>
+                    </svg>
                 </div>
                 <div class="p-6">
-                    <h3 class="text-lg font-extrabold text-gray-900 dark:text-white mb-2">Cloud Solutions</h3>
-                    <p class="text-sm text-gray-500 dark:text-slate-400 leading-relaxed">Scalable cloud infrastructure design and deployment for modern enterprises.</p>
+                    <h3 class="text-lg font-extrabold text-gray-900 mb-2">Cloud Solutions</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Scalable cloud infrastructure design and deployment for modern enterprises.</p>
                 </div>
             </a>
 

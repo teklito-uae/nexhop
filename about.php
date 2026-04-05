@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'About Nexhop Computers | IT Solutions Provider Dubai';
-$pageDescription = 'Learn about Nexhop Computers, a leading IT service provider in Dubai and part of Hiba Computer Group. Our mission, vision, and expertise in enterprise IT solutions.';
+$pageDescription = 'Learn about Nexhop Computers, a leading IT service provider in Dubai specializing in enterprise networking, wholesale hardware distribution, and end-to-end IT infrastructure solutions.';
 include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
@@ -22,13 +22,11 @@ include 'includes/navbar.php';
                     Legacy</span>
                 <h1
                     class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-4 tracking-tight font-[Poppins]">
-                    Architecting the <span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500">Future of
-                        IT</span> in Dubai
+                    Nexhop <span
+                        class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Computers</span>
                 </h1>
                 <p class="text-sm sm:text-base text-gray-500 dark:text-slate-400 mb-8 leading-relaxed">
-                    Nexhop Computers is a specialized division of the Hiba Computer Group, dedicated to delivering
-                    enterprise-grade infrastructure and bespoke technology solutions since our inception.
+                    Your trusted IT and networking solutions provider based in Dubai, delivering enterprise-grade infrastructure, wholesale hardware distribution, and bespoke technology solutions to businesses across the UAE and beyond.
                 </p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <div
@@ -66,17 +64,16 @@ include 'includes/navbar.php';
                             Story</span>
                         <h2
                             class="text-2xl sm:text-3xl font-extrabold text-gray-900 dark:text-white leading-tight font-[Poppins]">
-                            A Specialized Division of Hiba Computer Group</h2>
+                            Your IT Infrastructure Partner in Dubai</h2>
                         <p class="text-xs sm:text-sm text-gray-500 dark:text-slate-400 leading-relaxed">
-                            Nexhop Computers emerged from a need for deeper technical specialization within the
-                            UAE's rapidly evolving IT landscape. While Hiba Computer Group built a foundation on
-                            hardware supply, Nexhop was forged to handle the complex engineering and implementation
-                            of enterprise ecosystems.
+                            Nexhop Computers is a Dubai-based IT solutions provider specializing in enterprise networking,
+                            wholesale hardware distribution, and end-to-end IT infrastructure services. From our hubs in
+                            Bur Dubai and Deira, we serve businesses across the UAE, GCC, and Africa.
                         </p>
                         <p class="text-xs sm:text-sm text-gray-500 dark:text-slate-400 leading-relaxed">
-                            Operating from our strategic hubs in Bur Dubai and Deira, we've successfully bridged the gap
-                            between raw hardware capabilities and high-level business strategy, crafting bespoke
-                            solutions that drive tangible growth.
+                            We are authorized partners for leading global brands including Ubiquiti, MikroTik, Cisco,
+                            Dell, HP, Fortinet, and more. Our team combines technical expertise with competitive pricing
+                            to deliver solutions that drive real business growth.
                         </p>
 
                         <div class="pt-4 grid grid-cols-2 gap-4">

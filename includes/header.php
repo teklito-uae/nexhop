@@ -40,18 +40,6 @@
     <!-- Tailwind CSS v4 Static Build -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
-    <!-- Theme Script (runs before paint to prevent flash) -->
-    <script>
-        (function () {
-            var theme = localStorage.getItem('theme') || 'dark';
-            if (theme === 'dark') {
-                document.documentElement.classList.add('dark');
-            } else {
-                document.documentElement.classList.remove('dark');
-            }
-        })();
-    </script>
-
     <!-- Schema.org -->
     <script type="application/ld+json">
     {
